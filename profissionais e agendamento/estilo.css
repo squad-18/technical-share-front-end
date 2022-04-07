@@ -12,34 +12,22 @@
   font-family: Metropolis;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 /*------LAYOUT--------*/
 body {
   background-color: #ffffff;
 }
 
-.container-principal {
-  margin-top: 4rem;
-  background-color: #efefef;
-  padding: 10px 20px;
-
-}
-
-.search-box {
-  background-color: #ffffff;
-  border: 1px solid #ef653c;
-  border-radius: 1rem;
-  margin: 1rem 0;
-}
-
-.search-icon {
-  text-align: center;
-  margin: 0.5rem;
-  color: #303033;
-}
-
 input {
   border: none;
-  width: 90%;
+  width: 80%;
   font-size: 0.9rem;
 }
 
@@ -47,12 +35,8 @@ input:focus {
   outline: none;
 }
 
-.container-profissional {
-  background-color: #ffffff;
-}
-
-.secao-profissional {
-  border: 1px solid red;
+p {
+  margin: 0;
 }
 
 /*------NAVEGAÇÃO--------*/
@@ -92,3 +76,74 @@ input:focus {
   color: #ef653c;
   transition: 0.35s;
 }
+
+/*------CONTAINER PRINCIPAL--------*/
+.container-principal {
+  margin-top: 4rem;
+  background-color: #efefef;
+  padding: 10px 20px;
+
+}
+
+.search-area {
+  align-items: center;
+}
+
+.search-box {
+  background-color: #ffffff;
+  border: 1px solid #ef653c;
+  border-radius: 1rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.search-icon {
+  text-align: center;
+  margin: 0.5rem;
+  color: #303033;
+}
+
+/*------ÁREA PROFISSIONAL--------*/
+
+.container-profissional {
+  background-color: #ffffff;
+  padding: 15px 20px;
+}
+
+.secao-profissional {
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5%;
+  height: 20rem;
+}
+
+.nome-profissional {
+  font-family: Metropolis-Black;
+  color: #ef653c;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cargo-profissional {
+  font-size: 0.8rem;
+  color: #303033
+}
+
+.habilidade-profissional{
+  font-size: 0.8rem;
+  color: #686868;
+}
+
+.img-profissional {
+  width: 10rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.botao-agendar {
+  background-color: #ef653c;
+  color: #ffffff;
+  font-size: small;
+}
+
