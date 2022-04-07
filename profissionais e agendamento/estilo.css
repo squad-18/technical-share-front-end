@@ -20,6 +20,31 @@ body {
 .container-principal {
   margin-top: 4rem;
   background-color: #efefef;
+  padding: 10px 20px;
+
+}
+
+.search-box {
+  background-color: #ffffff;
+  border: 1px solid #ef653c;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.search-icon {
+  text-align: center;
+  margin: 0.5rem;
+  color: #303033;
+}
+
+input {
+  border: none;
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  outline: none;
 }
 
 .container-profissional {
