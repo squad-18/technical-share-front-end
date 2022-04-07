@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(font/Metropolis-Regular.woff), url(font/Metropolis-Bold.woff);
+}
+
+@font-face {
+  font-family: Metropolis-Black;
+  src: url(font/Metropolis-Black.woff);
+}
+
+* {
+  font-family: Metropolis;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container-principal {
+  margin-top: 4rem;
+  background-color: #efefef;
+}
+
+.container-profissional {
+  background-color: #ffffff;
+}
+
+.secao-profissional {
+  border: 1px solid red;
+}
+
+/*------NAVEGAÇÃO--------*/
+
+.logo {
+  width: 6rem;
+  height: outo;
+}
+
+.navegation {
+  background: #ffffff;
+}
+
+.navegation a.nav-link {
+  font-family: Metropolis-Black;
+  font-weight: 1000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #303033;
+}
+
+.btn-outline-light {
+  background-color: #ffffff;
+  color: #ef653c;
+  border: 1px solid #ef653c;
+}
+
+.btn-outline-light:hover {
+  background: #ef653c;
+  color: #ffffff;
+  border: 1px solid #ef653c;
+  transition: 0.4s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ef653c;
+  transition: 0.35s;
+}
