@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Metropolis'; 
+    src: url('fontes/Metropolis-Black.otf') format('opentype');
+       
+}
+
+@font-face {
+    font-family: 'Metropolis-corpo'; 
+    src: url('fontes/Metropolis-Regular.otf') format('opentype');
+    
+}
+
+:root{
+    --cor1: rgb(254, 85, 23);
+    --cor2: rgb(254, 68, 0);
+    --cor3: rgb(81, 82, 162);
+    --cor4: rgb(48, 48, 51);
+
+    --fonte-padrao-texto: 'Calibri';
+    --fonte-fcamaraTitulo: 'Metropolis';
+    --fonte-fcamaraCorpo: 'Metropolis-corpo';    
+}
+
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--fonte-fcamaraTitulo);
+    color: var(--cor2);
+    margin-block-end: 5px;
+    margin-block-start: 7px;
+}
+
+.subtitulo{
+    margin-block-start: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #303033;
+    font-weight: bold;
+    font-family: var(--fonte-fcamaraCorpo)
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    text-align:left;
+    justify-content:flex-start;
+    width: 6rem;
+    height: outo;
+    position: absolute;
+    left: 12px;    
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+.tela-chat {
+    position: fixed;
+    right: 12px;
+    bottom: 20px;
+    font-family: var(--fonte-padrao-texto);
+}
+.container-chat {
+    position: relative;
+}
+
+.conteudo {
+    width: 1345px;
+    height: clamp(300px, 72vh, 950px);
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:0 7px 30px -10px rgba(20, 22, 22, 0.5);
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+}
+
+.identificacao {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-image: linear-gradient( 109.6deg, var(--cor2) 11.2%, var(--cor1)  80%);
+    font-family: var(--fonte-fcamaraCorpo);
+   
+}
+.identificacao span{
+    font-family: var(--fonte-padrao-texto);
+}
+.identificacao span, strong {
+    color: #fff;
+    display: block;
+}
+
+.identificacao em{
+    color: #fff;
+    font-family: var(--fonte-padrao-texto);
+}
+.identificacao figure {
+    margin: 0 15px 0 0;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px solid #fff 
+}
+.inicio-chat {
+    padding: 4px;
+    border-radius: 5px;
+    background: #f5f5f5;
+    color: #bdbcbc;
+    margin: 0 20px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.container-dialogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 75%;
+}
+.container-interacao {
+    padding: 0 10px;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--cor2) var(--cor1)
+}
+.container-interacao::-webkit-scrollbar {
+    width: 12px;
+}
+.container-interacao::-webkit-scrollbar-track {
+    background: #0a0a0a;
+    border-radius: 0;
+}
+.container-interacao::-webkit-scrollbar-thumb {
+    background-color: var(--cor2);
+    border-radius: 0;
+}
+.interacao {
+    margin: 15px 0 
+}
+.aluno {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aluno .foto figure{
+    margin: 0;
+}
+
+
+.aluno p {
+    background: #ccc;
+    color: #000;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    padding: 10px;
+    margin: 0;
+    left: 5px;
+}
+.mentor {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.mentor .foto figure {
+    margin: 0;
+}
+.mentor p {
+    background-color: var(--cor1);
+    color: #fff;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    padding: 10px;
+    margin: 0;
+}
+.enviar-mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.enviar-mensagem svg {
+    fill: #555 
+}
+.enviar-mensagem-input {
+    width: 1000px;
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 35px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+}
+.enviar-mensagem-input:focus {
+ outline: none;
+ background: #f9f9f9;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    font-family: var(--fonte-fcamaraTitulo);
+    padding: 5px;
+    background-color: var(--cor3);
+    color: #ccc;
+}
