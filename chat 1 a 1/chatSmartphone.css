@@ -23,9 +23,17 @@
     --fonte-fcamaraCorpo: 'Metropolis-corpo';    
 }
 
+.container.titulo{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
 
 .titulo{
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
     font-family: var(--fonte-fcamaraTitulo);
     color: var(--cor2);
@@ -35,7 +43,7 @@
 
 .subtitulo{
     margin-block-start: 5px;
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
     color: #303033;
     font-weight: bold;
@@ -43,14 +51,9 @@
 }
 
 .logo{
-    display: flex;
-    align-items: flex-start;
-    text-align:left;
-    justify-content:flex-start;
-    width: 6rem;
-    height: outo;
-    position: absolute;
-    left: 12px;    
+    width: 4rem;
+    position: absolute;   
+    right: 25px;   
 }
 
 *{
@@ -69,8 +72,8 @@
 }
 
 .conteudo {
-    width: 1345px;
-    height: clamp(300px, 72vh, 950px);
+    width: 350px;
+    height: clamp(300px, 78vh, 950px);
     overflow: hidden;
     border-radius: 5px;
     box-shadow:0 7px 30px -10px rgba(20, 22, 22, 0.5);
@@ -159,7 +162,6 @@
     margin: 0;
 }
 
-
 .aluno p {
     background: #ccc;
     color: #000;
@@ -189,20 +191,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 .enviar-mensagem svg {
     fill: #555 
 }
 .enviar-mensagem-input {
-    width: 1000px;
-    height: 35px;
+    width: 250px;
+    height: 25px;
     padding: 0 15px;
     border-radius: 35px;
     border: 1px solid #ccc;
-    margin: 0 5px;
+        
 }
+
 .enviar-mensagem-input:focus {
  outline: none;
  background: #f9f9f9;
@@ -214,7 +217,7 @@ footer{
     text-align: center;
     justify-content: center;
     width: 100%;
-    height: 60px;
+    height: 20px;
     overflow: hidden;
     position: absolute;
     bottom: 0px;
