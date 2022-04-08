@@ -7,26 +7,33 @@
     <title>Chat Technical Share</title>
 
     <style>
-        /*@import url(smartphone.css) (min-width:300px); implementar rsponsividade para smartphone*/
+        /*@import url(smartphone.css) (min-width:300px); implementar responsividade para smartphone*/
         @import url(chatDesktop.css) (min-width:900px);
        </style>
 </head>
 
 <body>
   <header>
-    <h1 class="titulo">Technical Share</h1>
-    <p class="subtitulo">nossa comunidade de tecnologia</p>
+    <div class="container-titulo">
+       <figure>
+        <img class="logo" src="imagens/logoFCamara.png" alt="Logo FCamara">
+     </figure>
+     <p class="titulo">Technical Share</p>
+      <p class="subtitulo">nossa comunidade de tecnologia</p>
+  </div>
   </header>    
   
    <div class="tela-chat">
     <div class="conteudo">
       <div class="identificacao">
         <figure>
-          <img class="avatar" src="https://i.ibb.co/pfLjyzg/people.jpg">
+          <img class="avatar" src="imagens/mentora.jpg">
         </figure>
         <div>
-        <strong>Júlia Sampaio - Desenvolvedora Back-End <br><em> Sangue Laranja desde 2020.</em></strong>  
-        <span> <br> Pode falar, @SangueLaranja!</span>
+        <strong> Júlia Sampaio - Desenvolvedora Back-End Pleno</strong> 
+          <span> Java, SpringBoot, Angular. </span>
+          <em> Sangue Laranja desde 2020.</em>
+        <span> Pode falar, #SangueLaranja!</span>
         </div>
       </div>
 
@@ -34,18 +41,34 @@
         <div class="container-interacao">
           <p class="inicio-chat">Inicio: 10:00 - 15/04/2022</p>
           <div class="aluno">
-            <p>Bom dia, gostaria de tirar umas dúvidas sobre API.</p>
-             <div class="dot"></div>
+             <div class="foto">
+              <figure>
+              <img class="avatar" src="imagens/mentorado.jpg" alt="foto mentorado">
+            </figure>
+             </div>
+            <p>Bom dia, gostaria de tirar umas dúvidas sobre API.</p> 
           </div>
+
           <div class="mentor">
              <div class="foto">
-                <figure>
-                <img class="avatar" src="https://i.ibb.co/pfLjyzg/people.jpg">
+              <figure>
+                <img class="avatar" src="imagens/mentora.jpg" alt="foto mentora">
               </figure>
              </div>
             <p>Bom dia! Claro, pode perguntar.</p>
           </div>
+        
+
+          <div class="aluno">
+            <div class="foto">
+              <figure>
+              <img class="avatar" src="imagens/mentorado.jpg" alt="foto mentorado">
+            </figure>
+           </div>
+            <p>Digitando...</p>
+            
           </div>
+        </div>
         <div class="enviar-mensagem">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
           <input class="enviar-mensagem-input"></input>
@@ -70,5 +93,8 @@
 
 </body>
 
+<footer>
+  <span>&copy;  Grupo FCamara | All Rights Reserved</span>
+</footer>
 
   
