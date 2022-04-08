@@ -20,6 +20,12 @@ a:hover{
   text-decoration: none;
 }
 
+h2 {
+  color: #ef653c;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
 /*------LAYOUT--------*/
 body {
   background-color: #ffffff;
@@ -82,7 +88,6 @@ p {
   margin-top: 4rem;
   background-color: #efefef;
   padding: 10px 20px;
-
 }
 
 .search-area {
@@ -103,6 +108,10 @@ p {
   color: #303033;
 }
 
+.text-muted {
+  font-size: 0.9rem;
+}
+
 /*------ÁREA PROFISSIONAL--------*/
 
 .container-profissional {
@@ -112,7 +121,6 @@ p {
 
 .secao-profissional {
   text-align: center;
-  margin-bottom: 20px;
   border-radius: 5%;
   height: 20rem;
 }
@@ -120,7 +128,6 @@ p {
 .nome-profissional {
   font-family: Metropolis-Black;
   color: #ef653c;
-  font-weight: bold;
   margin: 0;
   font-size: 1rem;
 }
