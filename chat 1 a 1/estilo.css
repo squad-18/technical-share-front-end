@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*--------duvidas----------
+-configuração da logo para resoluções menores não funciona
+-centralzar div data-conversa
+ */
+
 /*regras para todos os dispositivos*/
 
 :root {
@@ -11,20 +16,18 @@
 }
 
 * {
-    font-family: 'Poppins';
+    font-family: 'Poppins';   
+    overflow-x: hidden;
 }
 
 
 .container-titulo {
     background-color: var(--cor1);
-    height: 70px;
     display: flex;
-
 }
 
 .titulo {
-    font-size: 20px;
-    font-family: var(--fonte-fcamaraTitulo);
+    
     color: #fff;
     margin-top: 10px;
     margin-left: 10px;
@@ -35,17 +38,14 @@
 .logo {
     width: 3.5rem;
     position: absolute;
-    left: 85px;
-    margin-left: 36px;
-    margin-top: 36px;
-
+    
 }
 
 .identificacao {
+    background-color: var(--cor2);
     display: flex;
     align-items: center;
-    padding: 10px;
-    background-color: var(--cor2);
+    padding:10px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -55,8 +55,7 @@
     font-weight: lighter;
 }
 
-.identificacao span,
-strong {
+.identificacao span, strong {
     color: #fff;
     display: block;
 }
@@ -75,21 +74,25 @@ strong {
     border-radius: 30px;
 }
 
-
-.data-conversa {
+.chat{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.data-conversa { /*não consigo centralizar essa div*/
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2px;
+    
     width: 120px;
     border-radius: 10px;
     color: #fff;
-    padding: 5px;
+    padding: 2px;
     background-color: var(--cor4);
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 1px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .chat-list {
@@ -120,7 +123,7 @@ strong {
 
 .chat-list .chat-message {
 
-    background: var(--cor1);
+    background: var(--cor2);
     display: inline-block;
     padding: 10px 20px;
     position: relative;
@@ -147,11 +150,6 @@ strong {
     width: 75%;
 }
 
-.chat-list .in .chat-message:before {
-    left: -12px;
-    border-bottom: 20px solid transparent;
-    border-right: 20px solid --cor3;
-}
 
 .chat-list .out .chat-img {
     float: right;
@@ -164,7 +162,7 @@ strong {
 }
 
 .chat-list .out .chat-message {
-    background: var(--cor2);
+    background: var(--cor1);
 }
 
 .chat-list .out .chat-message:before {
@@ -183,16 +181,13 @@ strong {
     color: #ffffff;
 }
 
-.content {
-    margin-top: 10px;
-}
+
 
 .enviar-mensagem {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 6px;
     width: 100%;
 }
 
@@ -204,7 +199,7 @@ strong {
     border: 1px solid var(--cor1);
     margin-left: 7px;
     margin-right: 7px;
-    margin-bottom: 9px;
+    margin-bottom: 2px;
 }
 
 .enviar-mensagem-input:focus {
@@ -216,8 +211,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 99%;
-
+    width: 100%;
     overflow: hidden;
     bottom: 0px;
     padding: 5px;
@@ -227,26 +221,68 @@ strong {
 
 }
 
-@media screen and (max-width: 480px) {
-
-    .rodape {
+/*regras específicas para smartphones*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .chat{
+        font-size: 13px;
+        
+    }
+    .container-titulo{
         height: 20px;
+    }
+    .logo { /*não consigo configurar a logo para resoluções menores, mas a maior funciona*/
+        width: 3.5rem;
+        position: absolute;
+        margin: 30px; 
+    }
+
+    .titulo {
+        font-size: 10px;
+    }
+    .identificacao{
+        background-color: var(--cor2);
+     }
+
+    
+    .rodape {
+        height: 40px;
         font-size: 10px;
     }
 
 }
 
+/*regras específicas para tablets*/
 @media screen and (min-width: 481) and (max-width: 1024px) {
+    
     .rodape {
-        height: 40px;
+        height: 50px;
         font-size: 15px;
     }
 }
-
+/*regras específicas para desktops e notebooks*/
 @media screen and (min-width: 1025px) {
 
-    .rodape {
-        height: 60px;
+    .titulo{
         font-size: 20px;
     }
+    .container-titulo {       
+        height: 70px;
+        
+    }
+
+    .logo {
+        position: absolute;
+        left: 85px;
+        margin-left: 30px;
+        margin-top: 36px;
+    }
+    .chat{
+        font-size: 16px;
+    }
+    
+    .rodape {
+        height: 50px;
+        font-size: 18px;
+    }
+
 }
