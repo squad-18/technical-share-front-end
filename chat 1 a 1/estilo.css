@@ -2,7 +2,7 @@
 
 /*--------duvidas----------
 -configuração da logo para resoluções menores não funciona
--centralzar div data-conversa
+
  */
 
 /*regras para todos os dispositivos*/
@@ -26,19 +26,16 @@
     display: flex;
 }
 
-.titulo {
-    
+.titulo {    
     color: #fff;
     margin-top: 10px;
     margin-left: 10px;
     font-weight: bold;
 }
 
-
 .logo {
     width: 3.5rem;
-    position: absolute;
-    
+    position: absolute; 
 }
 
 .identificacao {
@@ -75,15 +72,12 @@
 }
 
 .chat{
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
 }
-.data-conversa { /*não consigo centralizar essa div*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
+
+
+.data-conversa{
     width: 120px;
     border-radius: 10px;
     color: #fff;
@@ -200,6 +194,7 @@
     margin-left: 7px;
     margin-right: 7px;
     margin-bottom: 2px;
+    
 }
 
 .enviar-mensagem-input:focus {
@@ -222,7 +217,7 @@
 }
 
 /*regras específicas para smartphones*/
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .chat{
         font-size: 13px;
         
@@ -230,10 +225,10 @@
     .container-titulo{
         height: 20px;
     }
-    .logo { /*não consigo configurar a logo para resoluções menores, mas a maior funciona*/
-        width: 3.5rem;
-        position: absolute;
-        margin: 30px; 
+
+    .logo { 
+       margin-left: 30px;
+       margin-top: 36px;
     }
 
     .titulo {
@@ -251,9 +246,13 @@
 
 }
 
-/*regras específicas para tablets*/
+/*regras específicas para dispositivos maiores, como tablets*/
 @media screen and (min-width: 481) and (max-width: 1024px) {
-    
+    .logo { 
+        left: 30px;
+        top: 36px;
+     }
+
     .rodape {
         height: 50px;
         font-size: 15px;
@@ -270,12 +269,12 @@
         
     }
 
-    .logo {
-        position: absolute;
+    .logo {        
         left: 85px;
         margin-left: 30px;
         margin-top: 36px;
     }
+
     .chat{
         font-size: 16px;
     }
