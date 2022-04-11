@@ -28,7 +28,7 @@
     <!--Início Navegação-->
     <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
       <div class="container">
-        <a href="index.html" class="navbar-brand">
+        <a href="entrada.html" class="navbar-brand">
           Technical Share
           <br />
           <div>
@@ -49,7 +49,7 @@
               <a href="forum.html" class="nav-link">Fórum</a>
             </li>
             <li class="nav-item">
-              <a href="mentorias-agendadas.html" class="nav-link">Mentorias</a>
+              <a href="mentorias-agendadas.html" class="nav-link">Mentorias Agendadas</a>
             </li>
             <li class="nav-item">
               <a href="favoritos.html" class="nav-link">Favoritos</a>
@@ -66,20 +66,24 @@
   <section>
     <!--Início Container Principal-->
     <div class="container container-principal">
-      <div class="d-flex justify-content-center text-center">
-        <p style="font-size: 20px; margin-bottom: 10px;"><strong>Favoritos</strong></p>
+      <!--Início Área do Cliente-->
+      <div class="d-flex align-items-center justify-content-between  mb-2">
+        <div class="">
+          <p class="favoritos"><strong>Favoritos</strong></p>
+        </div>
+        <div class="d-flex justify-content-end "><img src="img/perfil.jpg" alt="" class="img-perfil" /></div>
       </div>
       <!--Início Search Area-->
-      <div class="search-box d-flex justify-center align-items-center">
-        <input type="text" placeholder="Pesquisar favoritos" class="ml-2" />
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <div class="search-box d-flex justify-content-center align-items-center">
+        <input type="text" placeholder="Pesquisar favoritos" class="search-area ml-2" />
+        <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
       </div>
-
       <!--fim do Search Box-->
-      <!--Início Profissionais-->
-      <div class="container container-profissional row d-flex justify-content-around">
+
+      <!--Início Container Principal-->
+      <div class="container container-profissional row d-flex justify-content-between">
         <!--Início Profissional 1-->
-        <div class="col-sm-5 col-md-4 col-lg-3 secao-profissional">
+        <div class="col-sm-5 col-md-4 col-lg-3 secao-profissional ">
           <div class="d-flex justify-content-around">
             <img src="img/woman1.jpg" alt="Foto de uma Mulher" class="img-profissional" />
             <div class="info-profissional">
@@ -87,19 +91,14 @@
               <p class="cargo-profissional">Back-End Júnior</p>
             </div>
           </div>
-
         
-        <!--Início Botões-->
-        <div class="d-flex alig-baseline height: 150px">
-          <div class="d-flex justify-content-center mt-3">
-            <div class="agendar-desfavoritar">
+        <!--Início Botões-->                    
               <img src="img/estrelafavoritos.jpg" alt="icone desfavoritar" /> Desfavoritar
               <a href="agendamento.html"> <button class="btn btn-light botao-mentoria">
                   Novo Agendamento
                 </button></a>
-            </div>
-          </div>
-        </div>
+            
+         
       </div>
         <!--Fim Botões-->
         <!--Fim Profissional 1-->
@@ -132,7 +131,7 @@
         <!--Fim Profissional 2-->
 
         <!--Início Profissional 3-->
-        <div class="container container-profissional row d-flex justify-content-around">
+        <div class="container container-profissional row d-flex justify-content-between">
         <div class="col-sm-5 col-md-4 col-lg-3 secao-profissional">
           <div class="d-flex justify-content-center">
             <img src="img/woman2.jpg" alt="Foto de uma Mulher" class="img-profissional" />
@@ -144,7 +143,7 @@
 
         
         <!--Início Botões-->
-        <div class="d-flex alig-baseline height: 150px">
+        <div class="d-flex align-center">
           <div class="d-flex justify-content-center mt-3">
             <div class="agendar-desfavoritar">
               <img src="img/estrelafavoritos.jpg" alt="icone desfavoritar" />Desfavoritar
@@ -200,5 +199,9 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 </body>
+<footer class="rodape">
 
+  &copy; Grupo FCamara | All Rights Reserved
+
+</footer>
 </html>
