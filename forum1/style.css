@@ -20,12 +20,13 @@ p {
     font-weight: normal;
     font-style: normal;
     font-size: 15px;
+    text-align: justify;
+  
  }
 
 
 html{
     font-size: 14px;
-    background-color: rgba(218, 214, 214, 0.384);
     color:#000000;
 }
 
@@ -37,8 +38,6 @@ a{
 
 h1{
     font-size:17px;
-    font-weight: bolder;
-
 }
 
 .coluna{
@@ -83,15 +82,16 @@ h1{
     margin-left: 10px;
 }
 
-/* ########################################### */
-/*           Forums.html                       */
-/* ########################################### */
+#novo-post{
+    margin-left: -80px;
+    background-color: #FF4500;
+    color: #ffffff;
+    font-weight: bold;
+}
 .container{
     margin: 20px;
     padding: 20px;
-    background-color: rgba(218, 214, 214, 0.384);
-   
-   
+    
 }
 
 .subforum{
@@ -104,8 +104,6 @@ h1{
     margin-right: auto; */
   }
   
-   
-
 
 .subforum-title{
     background-color:#FF4500;
@@ -125,7 +123,58 @@ h1{
     align-items: center;
 }
 
-/* For the smartphones */
+
+/*------NAVEGAÇÃO--------*/
+
+.navbar-light .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .navbar-light .navbar-nav .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FF4500;
+    padding: 5px 7px;
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .navbar-light .navbar-nav .btn:hover {
+    color: #e1e1e6;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    transition: 0.35s;
+  }
+  
+  .navbar-light .navbar-brand {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .navbar-light .navbar-brand:hover {
+    color:#ffffff;
+  }
+  
+  .logo {
+    
+    height: auto;
+    fill: #ffffff;
+    margin-left: -100px;
+  }
+  
+  .navegation {
+    background: #FF4500;
+  }
+ 
+/* smartphones */
 @media screen and (max-width: 460px) {
     .container{
         margin: 10px;
@@ -139,7 +188,7 @@ h1{
     
   }
 
-/* For the tablets */
+/* tablets */
 @media screen and (min-width: 460px) and (max-width: 1024px) {
     .container{
         margin: 15px;
@@ -162,174 +211,15 @@ h1{
     
 
   }
-/*   Header Section    */
+/*   Header   */
 
 header{
     margin-inline: 10px;
     margin-bottom: 0px;
 }
-  /* Nav Bar styles */
 
 
-
-
-
-/*------NAVEGAÇÃO--------*/
-
-.navbar-light .navbar-toggler {
-    border: none;
-  }
-  
-  .navbar-light .navbar-nav .nav-link{
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .navbar-light .navbar-nav .btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: #E24816;
-    padding: 5px 7px;
-    background-color: #ffffff;
-    font-size: 14px;
-  }
-  
-  .navbar-light .navbar-nav .btn:hover {
-    color: #303033;
-  }
-  
-  .navbar-nav .nav-item .nav-link:hover {
-    transition: 0.35s;
-  }
-  
-  .navbar-light .navbar-brand {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  .navbar-light .navbar-brand:hover {
-    color:#ffffff;
-  }
-  
-
-
-
-/*  NAVEGAÇAO
-  .navbar-light .navbar-toggler {
-    border: none;
-  }
-  
-  .navbar-light .navbar-nav .nav-link{
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .navbar-light .navbar-nav .btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: #E24816;
-    padding: 5px 7px;
-    background-color: #ffffff;
-    font-size: 14px;
-  }
-  
-  .navbar-light .navbar-nav .btn:hover {
-    color: #303033;
-  }
-  
-  .navbar-nav .nav-item .nav-link:hover {
-    transition: 0.35s;
-  }
-  
-  .navbar-light .navbar-brand {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  .navbar-light .navbar-brand:hover {
-    color:#ffffff;
-  }
-  
-  .logo {
-    width: 3rem;
-    height: auto;
-    fill: #ffffff;
-  }
-  
-  .navegation {
-    background: #E24816;
-    height: 61px;
-  }
-  
-  
-.navbar{
-    display:flex;
-    align-items: center;
-}
-.navigation{
-    background-color:#E24816;
-    padding: 10px;
-    width: 65%;
-    display: inline-block;
-    border-radius: 5px;
-    max-height: 80px;
-    margin-right:10px; 
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.close-icon i{
-    font-size:60px;
-    float: left;
-    cursor: pointer;
-}
-
-.nav-list{
-    list-style-type:none;
-    overflow: hidden;
-}
-
-.nav-item a{
-    float: right;
-    display:block;
-    text-align: center;
-    margin-inline: 20px;
-    font-size: 20px;
-    padding: 10px;
-    color:#0B0045;
-}
-
-.nav-item a:hover{
-    background-color: rgb(0,0,0,0.1);
-}
-
-.hide{
-    display: none;
-}
-
-.bar-icon{
-    font-size: 60px;
-    display: inline-block;
-    margin-right:10px;
-    color: #0B0045;
-    cursor: pointer;
-}
-
-
-.brand{
-    font-size:60px;
-    display: inline-block;
-    font-family: 'MetropolisRegular';
-}
-*/
-
-/*Navbar for the smartphones*/
+/*Navbar smartphones*/
 @media screen and (max-width: 460px){
     .navigation{
         max-height: auto;
@@ -357,28 +247,28 @@ header{
     }
 }
 
-  /* Search Box styles */
 .search-box{
-    /*border: solid 2px #FF4500; */
     border-radius: 5px;
     margin-top: 50px;
-    padding: 40px;
+    padding: 120px;
     display:flex;
-    justify-content: center;
-    /* box-shadow:1px 2px 0px #FF4500; */
+    margin-left: 145px;
+    margin-bottom: -150px;
 }
 
 .search-box select{
     padding: 10px;
-    border-radius: 5px;
-    border-color: #FF4500;
-
+    border-radius: 10px;
+    border: 3px solid #FF4500;
+    font-weight: bold;
 }
 
 .search-box input{
     padding: 10px;
     border-radius: 5px;
-    border-color: #FF4500;
+    border: 3px solid #FF4500;
+    width: 60%;
+    height: 48px;
 }
 
 .search-box button{
@@ -386,7 +276,7 @@ header{
     border-radius: 5px;
     background-color:#fff;
     color:#000000;
-    border-color: #FF4500;
+    border: 0px;
 }
 
 .search-box button:hover{
@@ -395,6 +285,16 @@ header{
     box-shadow: 1px 2px 3px #fff;
     border-radius: 5px;
 }
+
+.search-icon {
+    margin: 0.5rem;
+    color: #000000;
+    margin-left: -190px;
+    /*width: 28px;
+    height: 28px;
+}
+
+/*                                                              SEARCH BOX           */
 
 /* search box for smrtphones */
 @media screen and (max-width: 460px){
@@ -406,9 +306,10 @@ header{
 }
 
 /* forum info Styling */
+}
 .forum-info{
     padding: 20px;
-    background-color: #303133;
+    background-color: #FF4500;
     color:#fff;
 }
 
@@ -421,191 +322,9 @@ header{
 footer{
     margin-top: 0px;
     padding: 30px;
-    background-color:  #FF4500;
+    background-color:  #36357e;
     display: block;
     text-align: center;
-}
-
-/* ########################################### */
-/*            posts.html                       */
-/* ########################################### */
-
-/* posts table's head  */
-.table-head{
-    display: flex;
-}
-
-.table-head div{
-    padding: 5px;
-    margin: 2px;
-    background-color: #2C2C2C;
+    color:#ffffff;
     font-weight: bold;
 }
-
-.table-head .status{
-    flex: 5%;
-}
-
-.table-head .subjects{
-    flex: 70%;
-}
-
-.table-head .replies{
-    flex: 10%;
-}
-
-.table-head .last-reply{
-    flex: 15%;
-}
-
-/* posts table's body  */
-
-.table-row{
-    display: flex;
-}
-
-.table-row .status, .table-row .subjects, .table-row .replies, .table-row .last-reply{
-    padding: 5px;
-    margin: 2px;
-    background-color: #131415;
-}
-
-.table-row .status{
-    flex: 5%;
-    font-size: 30px;
-    text-align: center;
-}
-
-.table-row .subjects{
-    flex: 70%;
-}
-
-.table-row .replies{
-    flex: 10%;
-}
-
-.table-row .last-reply{
-    flex: 15%;
-}
-
-/* navigation path*/
-.navigate{
-    margin-block: 20px;
-    font-weight: lighter;
-    font-size: 24px;
-}
-
-.navigate a{
-    color: #fff;
-}
-
-.navigate a:hover{
-    color:#FF4500;
-    font-weight: bolder;
-}
-
-/* Pagination*/
-
-.pagination{
-    padding: 20px;
-    font-size: 15px;
-}
-
-.pagination a{
-    color: #fff;
-    margin-inline: 5px;
-    padding: 5px 10px;
-    border: solid 0.5px #fff;
-}
-
-.pagination a:hover{
-    opacity: 0.5;
-}
-
-.note{
-    background-color:#111314;
-    padding: 20px;
-    display: block;
-}
-
-.note span{
-    font-size: 20px;
-    margin-block: 5px;
-}
-
-
-/* ########################################### */
-/*            detail.html                      */
-/* ########################################### */
-
-.head{
-    display: flex;
-    background-color: #2C2C2C;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.authors{
-    flex: 20%;
-}
-
-.content{
-    flex: 80%;
-}
-
-.body{
-    display: flex;
-    background-color: #131415;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-.body .authors .username{
-    font-size: 20px;
-}
-
-.body .authors img{
-    max-width: 50px;
-    max-height: 80px;
-}
-
-.body .content .comment button{
-    border:none;
-    padding:10px;
-    font-weight: bolder;
-    box-shadow: 4px 6px #fff;
-    cursor: pointer;
-    float: right;
-}
-
-/* comment section */
-.comment-area{
-    margin-bottom:50px;
-}
-
-.comment-area textarea{
-    width: 100%;
-    min-height: 100px;
-    padding: 10px;
-    margin-block: 10px;
-}
-
-.comment-area input{
-    float: right;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.comment-area input:hover{
-    border: solid 1px #000000;
-}
-
-
-
-
-
-
-
-
