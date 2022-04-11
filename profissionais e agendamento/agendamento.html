@@ -20,11 +20,24 @@
 
     <!--Estilo personalizado-->
     <link rel="stylesheet" href="estilo.css" />
+
+     <!--Fontes-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+       rel="stylesheet"
+     />
+
+      <!--Ícone da Página-->
+    <link rel="icon" type="imagem/png" href="/img/icone-fcamara.png" />
+
   </head>
   <body>
     <header>
       <!--Início Navegação-->
       <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
+        <div class="container">
           <a href="entrada.html" class="navbar-brand">
             Technical Share
             <br />
@@ -51,18 +64,17 @@
               </li>
               <li class="nav-item">
                 <a href="mentorias-agendadas.html" class="nav-link"
-                  >Mentorias</a
+                  >Mentorias Agendadas</a
                 >
               </li>
               <li class="nav-item">
                 <a href="favoritos.html" class="nav-link">Favoritos</a>
               </li>
               <li class="nav-item">
-                <a href="login.html" class="btn btn-outline-light ml-4"
-                  >Sair</a
-                >
+                <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
               </li>
             </ul>
+          </div>
         </div>
       </nav>
       <!--Fim Navegação-->
@@ -70,7 +82,7 @@
     <section>
       <!--Início Container Principal-->
       <div class="container container-principal-agendamento">
-        <p><a href="entrada.html">&lt; Voltar</a></p>
+        <p><a href="entrada.html">&laquo; Voltar</a></p>
         <h2>Faça seu Agendamento</h2>
         <!--Início Profissionais-->
         <div class="container container-profissional">
@@ -114,6 +126,11 @@
         </div>
       </div>
     </section>
+
+  <footer class="rodape">
+      &copy; Grupo FCamara | All Rights Reserved
+  </footer>
+  
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

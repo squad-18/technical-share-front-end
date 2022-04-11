@@ -88,7 +88,6 @@ input::placeholder{
   max-width: 850px;
   margin-top: 4rem;
   background-color: #fff;
-  padding: 15px;
 }
 
 @media (max-width:576px){
@@ -149,9 +148,8 @@ input.search-area {
 
 .container-profissional {
   background-color: #ffffff;
-  padding: 15px 20px;
   width: 184;
-  height: 252px;
+  height: auto;
 }
 
 .secao-profissional {
@@ -220,6 +218,28 @@ input.search-area {
 .btn.btn-light.botao-chat:hover {
   background-color: #4b4fa1;
   transition: 0.5s;
+}
+
+.botao-carregar {
+  font-size: 14px;
+  color:#E24816;
+}
+
+.botao-carregar:hover {
+  font-size: 14px;
+  color:#E24816;
+  text-decoration: underline;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #36357E;
+  color: #fff;
+  font-weight: bold;
 }
 
 /*------AGENDAMENTO--------*/
