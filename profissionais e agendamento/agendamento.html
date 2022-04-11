@@ -23,10 +23,14 @@
   </head>
   <body>
     <header>
+      <!--Início Navegação-->
       <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
-        <div class="container">
-          <a href="" class="navbar-brand">
-            <img src="img/Logotipo-FCamara.png" class="logo" alt="" />
+          <a href="index.html" class="navbar-brand">
+            Technical Share
+            <br />
+            <div>
+              <img src="img/Logo-FCamara.png" alt="" class="logo float-right" />
+            </div>
           </a>
           <!--menu sanduíche-->
           <button
@@ -40,56 +44,69 @@
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="" class="nav-link navegation-link">home</a>
+                <a href="chat.html" class="nav-link navegation-link">Chat</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">sobre nós</a>
+                <a href="forum.html" class="nav-link">Fórum</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">profissionais</a>
+                <a href="mentorias-agendadas.html" class="nav-link"
+                  >Mentorias</a
+                >
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">fórum</a>
+                <a href="favoritos.html" class="nav-link">Favoritos</a>
               </li>
               <li class="nav-item">
-                <a href="" class="btn btn-outline-light ml-4">Entrar</a>
+                <a href="login.html" class="btn btn-outline-light ml-4"
+                  >Entrar</a
+                >
               </li>
             </ul>
-          </div>
         </div>
       </nav>
+      <!--Fim Navegação-->
     </header>
     <section>
       <!--Início Container Principal-->
-      <div class="container container-principal">
+      <div class="container container-principal-agendamento">
         <h2>Faça seu Agendamento</h2>
         <!--Início Profissionais-->
         <div class="container container-profissional">
           <div class="row g-4 d-flex justify-content-center">
-            <div class="col-md-8 shadow-sm rounded text-center">
+            <div class="col-md-9 rounded text-center">
               <img
-                src="img/woman1.jpg"
+                src="img/man.jpg"
                 alt="Foto de uma Mulher"
-                class="img-profissional mt-2"
+                class="img-mentoria mt-2"
               />
-              <p class="nome-profissional mt-1">Profissional 1</p>
-              <p class="cargo-profissional">
-                <strong> Desenvolvedor Júnior</strong>
-              </p>
-              <p class="habilidade-profissional mb-2">
-                <strong>Habilidades:</strong> React, React Native, Express,
-                NestJS, NextJS.
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-light botao-assunto-laranja">
+                  Spring Boot
+                </button>
+                <button class="btn btn-light botao-assunto-azul">
+                  Angular
+                </button>
+                <button class="btn btn-light botao-assunto-laranja">
+                  Java
+                </button>
+              </div class="">
+              <h2>Yago</h2><i class="fa-solid fa-star"></i>
+              <p>
+                Olá pessoal, eu sou o Yago, sou desenvolvedor backend com
+                especialização em Java e estou disponível para lhes ajudar em
+                todos os temas relacionados a linguagem. Desde angular até
+                spring boot. Se quiser alguma ajuda, marca uma mentoria ou me
+                chama no chat.
               </p>
             </div>
 
-            <div class="col-md-4 shadow-sm rounded text-center">
-              <p class="nome-profissional mt-1">Informações de Agendamento</p>
-              <p class="cargo-profissional">
-                <strong>DATA</strong>
-              </p>
-              <p class="habilidade-profissional mb-2">HORA</p>
+            <div class="col-md-3 rounded text-center">
+              <h3 class="mt-1">Informações de Agendamento</h3>
+              <input type="date" name="" id="">
+              <input type="time" name="" id="">
               <button class="btn btn-light mb-2 btn-sm botao-agendar">
-                Confirmar Agendamento
+                Agendar Mentoria
               </button>
             </div>
           </div>

@@ -12,9 +12,13 @@ a:hover{
 }
 
 h2 {
-  color: #ef653c;
-  font-size: 1.7rem;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /*------LAYOUT--------*/
@@ -87,17 +91,12 @@ input::placeholder{
 
 .navegation {
   background: #E24816;
-  height: 61px;
 }
-
 
 /*------CONTAINER PRINCIPAL--------*/
 
 .container.container-principal {
   max-width: 850px;
-}
-
-.container-principal {
   margin-top: 4rem;
   background-color: #efefef;
   padding: 15px;
@@ -193,6 +192,80 @@ input::placeholder{
 
 .btn.btn-light.botao-chat:hover {
   background-color: #4b4fa1;
+  transition: 0.5s;
+}
+
+/*------AGENDAMENTO--------*/
+
+@media (min-width: 768px){
+  .container-principal-agendamento {
+    width: 1180px;
+    margin-top: 4rem;
+    background-color: #efefef;
+    padding: 15px;
+  }  
+}
+
+  @media (min-width: 768px) {
+    .img-mentoria {
+      width: 553px;
+      height: 367px; 
+    }
+  }
+
+  @media (max-width: 767px) {
+    .img-mentoria {
+      width: 184px;
+      height: 181px;
+    }
+  }
+
+.botao-assunto-laranja {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #E24816;
+  color: #ffffff;
+  width: 143px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-assunto-azul{
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #36357E;
+  color: #ffffff;
+  width: 143px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-assunto-laranja:hover {
+  background-color: #ef653c;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.botao-assunto-azul:hover {
+  background-color: #4b4fa1;
+  transition: 0.5s;
+  color: #fff;
+}
+
+
+.botao-agendar {
+  background-color: #E24816;
+  color: #fff;
+  font-weight: 700;
+}
+
+.botao-agendar:hover {
+  color: #fff;
+  background-color: #ef653c;
   transition: 0.5s;
 }
 
