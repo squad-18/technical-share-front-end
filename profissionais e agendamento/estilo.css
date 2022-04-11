@@ -148,64 +148,52 @@ input.search-area {
 
 .container-profissional {
   background-color: #ffffff;
-  width: 184;
+  width: 100%;
   height: auto;
 }
 
 .secao-profissional {
   border-radius: 8px;
-  height: 252px;
+  height: auto;
   margin-bottom: 15px;
 }
 
+
 .img-profissional {
-  width: 184px;
-  height: 204px;
   border-radius: 8px;
 }
 
 .info-profissional{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 8px;
-  width: 184px;
-  height: 60px;
-  position: absolute;
-  bottom: 47px;
   backdrop-filter: blur(4px);
 }
 
 .nome-profissional {
   color: #FEFFFC;
   font-weight: 700;
-  margin-left: 20px;
-  font-size: 20px;
 }
 
 .cargo-profissional {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  margin-left: 20px;
   color: #FEFFFC;
 }
 
 .btn.btn-light.botao-mentoria {
   font-weight: 700;
-  font-size: 16px;
+  align-items: center;
   background-color: #E24816;
   color: #ffffff;
-  width: 89px;
-  height: 40px;
   display: flex;
   justify-content: center;
 }
 
 .btn.btn-light.botao-chat {
   font-weight: 700;
-  font-size: 16px;
+  align-items: center;
   background-color: #36357E;
   color: #ffffff;
-  width: 89px;
-  height: 40px;
   display: flex;
   justify-content: center;
 }
@@ -241,6 +229,84 @@ input.search-area {
   color: #fff;
   font-weight: bold;
 }
+
+/*------RESPONSIVIDADE--------*/
+
+@media (max-width: 576px) {
+  
+  .img-profissional {
+    width: 150px;
+    height: 170px;
+  }
+  
+  .info-profissional{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 47px;
+  }
+  
+  .nome-profissional {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .cargo-profissional {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .btn.btn-light.botao-mentoria {
+    font-size: 14px;
+    width: auto;
+    height: 40px;
+  }
+  
+  .btn.btn-light.botao-chat {
+    font-size: 14px;
+    width: auto;
+    height: 40px;
+  
+  }
+  }
+
+  @media (min-width: 577px) {
+  
+    .img-profissional {
+      width: 184px;
+      height: 204px;
+    }
+    
+    .info-profissional{
+      width: 184px;
+      height: 60px;
+      position: absolute;
+      bottom: 47px;
+    }
+    
+    .nome-profissional {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    
+    .cargo-profissional {
+      font-size: 16px;
+      margin-left: 20px;
+    }
+    
+    .btn.btn-light.botao-mentoria {
+      font-size: 16px;
+      width: 89px;
+      height: 40px;
+    }
+    
+    .btn.btn-light.botao-chat {
+      font-size: 16px;
+      width: 89px;
+      height: 40px;
+    
+    }
+    }
 
 /*------AGENDAMENTO--------*/
 p a {
