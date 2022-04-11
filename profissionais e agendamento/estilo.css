@@ -24,7 +24,7 @@ body {
 
 input {
   border: none;
-  width: 80%;
+  width: 90%;
   font-size: 0.9rem;
 }
 
@@ -34,6 +34,10 @@ input:focus {
 
 p {
   margin: 0;
+}
+
+input::placeholder{
+  font-size: 16px;
 }
 
 /*------NAVEGAÇÃO--------*/
@@ -88,14 +92,15 @@ p {
 
 
 /*------CONTAINER PRINCIPAL--------*/
+
+.container.container-principal {
+  max-width: 850px;
+}
+
 .container-principal {
   margin-top: 4rem;
   background-color: #efefef;
-  padding: 10px 20px;
-}
-
-.search-area {
-  align-items: center;
+  padding: 15px;
 }
 
 .search-box {
@@ -103,13 +108,13 @@ p {
   border: 1px solid #ef653c;
   border-radius: 1rem;
   width: 100%;
-  margin: 1rem 0;
+  height: 48px;
+  margin-bottom: 15px;
 }
 
 .search-icon {
-  text-align: center;
   margin: 0.5rem;
-  color: #303033;
+  color: #000000;
 }
 
 .text-muted {
@@ -124,36 +129,70 @@ p {
 }
 
 .secao-profissional {
-  text-align: center;
-  border-radius: 5%;
-  height: 20rem;
-}
-
-.nome-profissional {
-  color: #ef653c;
-  margin: 0;
-  font-size: 1rem;
-}
-
-.cargo-profissional {
-  font-size: 0.8rem;
-  color: #303033
-}
-
-.habilidade-profissional{
-  font-size: 0.8rem;
-  color: #686868;
+  border-radius: 8px;
+  height: 252px;
+  margin-bottom: 32px;
 }
 
 .img-profissional {
-  width: 10rem;
-  height: auto;
-  border-radius: 50%;
+  width: 184px;
+  height: 204px;
+  border-radius: 8px;
 }
 
-.botao-agendar {
-  background-color: #ef653c;
+.info-profissional{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 184px;
+  height: 60px;
+  position: absolute;
+  bottom: 37px;
+  backdrop-filter: blur(4px);
+}
+
+.nome-profissional {
+  color: #FEFFFC;
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.cargo-profissional {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #FEFFFC;
+}
+
+.btn.btn-light.botao-mentoria {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #E24816;
   color: #ffffff;
-  font-size: small;
+  width: 89px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn.btn-light.botao-chat {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #36357E;
+  color: #ffffff;
+  width: 89px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn.btn-light.botao-mentoria:hover {
+  background-color: #ef653c;
+  transition: 0.5s;
+}
+
+.btn.btn-light.botao-chat:hover {
+  background-color: #4b4fa1;
+  transition: 0.5s;
 }
 
