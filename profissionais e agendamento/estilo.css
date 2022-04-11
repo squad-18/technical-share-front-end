@@ -1,4 +1,3 @@
-
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -12,24 +11,14 @@ a:hover{
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 700;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: 700;
-}
 
 /*------LAYOUT--------*/
 body {
   background-color: #ffffff;
-}
-
-input {
-  border: none;
-  width: 90%;
-  font-size: 0.9rem;
 }
 
 input:focus {
@@ -98,8 +87,36 @@ input::placeholder{
 .container.container-principal {
   max-width: 850px;
   margin-top: 4rem;
-  background-color: #efefef;
+  background-color: #fff;
   padding: 15px;
+}
+
+@media (max-width:576px){
+  .img-perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #E24816;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 577px){
+  .img-perfil {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    border: 3px solid #E24816;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+  }
 }
 
 .search-box {
@@ -111,9 +128,17 @@ input::placeholder{
   margin-bottom: 15px;
 }
 
+input.search-area {
+  border: none;
+  width: 90%;
+  font-size: 0.9rem;
+}
+
 .search-icon {
   margin: 0.5rem;
   color: #000000;
+  /*width: 28px;
+  height: 28px;*/
 }
 
 .text-muted {
@@ -125,12 +150,14 @@ input::placeholder{
 .container-profissional {
   background-color: #ffffff;
   padding: 15px 20px;
+  width: 184;
+  height: 252px;
 }
 
 .secao-profissional {
   border-radius: 8px;
   height: 252px;
-  margin-bottom: 32px;
+  margin-bottom: 15px;
 }
 
 .img-profissional {
@@ -145,7 +172,7 @@ input::placeholder{
   width: 184px;
   height: 60px;
   position: absolute;
-  bottom: 37px;
+  bottom: 47px;
   backdrop-filter: blur(4px);
 }
 
@@ -196,22 +223,29 @@ input::placeholder{
 }
 
 /*------AGENDAMENTO--------*/
+p a {
+  color: #E24816;
+}
+
+p a:hover {
+  color: #E24816;
+  text-decoration: underline;
+  transition: 0.5s;
+}
 
 @media (min-width: 768px){
   .container-principal-agendamento {
     width: 1180px;
     margin-top: 4rem;
-    background-color: #efefef;
+    background-color: #fff;
     padding: 15px;
   }  
-}
-
-  @media (min-width: 768px) {
-    .img-mentoria {
-      width: 553px;
-      height: 367px; 
-    }
+  
+  .img-mentoria {
+    width: 553px;
+    height: 367px; 
   }
+}
 
   @media (max-width: 767px) {
     .img-mentoria {
@@ -255,7 +289,6 @@ input::placeholder{
   transition: 0.5s;
   color: #fff;
 }
-
 
 .botao-agendar {
   background-color: #E24816;
