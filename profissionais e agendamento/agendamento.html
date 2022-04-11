@@ -21,17 +21,16 @@
     <!--Estilo personalizado-->
     <link rel="stylesheet" href="estilo.css" />
 
-     <!--Fontes-->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
-       rel="stylesheet"
-     />
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-      <!--Ícone da Página-->
+    <!--Ícone da Página-->
     <link rel="icon" type="imagem/png" href="/img/icone-fcamara.png" />
-
   </head>
   <body>
     <header>
@@ -81,19 +80,18 @@
     </header>
     <section>
       <!--Início Container Principal-->
-      <div class="container container-principal-agendamento">
-        <p><a href="entrada.html">&laquo; Voltar</a></p>
-        <h2>Faça seu Agendamento</h2>
+      <div class="container container-principal-agendamento borda">
+        <a href="entrada.html"><i class="fa-solid fa-arrow-left fa-2x"></i></a>
         <!--Início Profissionais-->
-        <div class="container container-profissional">
-          <div class="row g-4 d-flex justify-content-center">
-            <div class="col-md-9 rounded text-center">
+        <div class="row d-flex">
+          <div class="container container-profissional col-md-8">
+            <div class="mentor">
               <img
                 src="img/man.jpg"
                 alt="Foto de uma Mulher"
                 class="img-mentoria mt-2"
               />
-              <div class="d-flex justify-content-center">
+              <div class="botoes">
                 <button class="btn btn-light botao-assunto-laranja">
                   Spring Boot
                 </button>
@@ -103,9 +101,14 @@
                 <button class="btn btn-light botao-assunto-laranja">
                   Java
                 </button>
-              </div class="">
-              <h2>Yago</h2><i class="fa-solid fa-star"></i>
-              <p>
+              </div>
+            </div>
+            <div class="info-mentor">
+              <div class="d-flex align-items-center mt-2">
+                <h2 class="mr-2 align-middle">Yago</h2>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <p class="text-justify">
                 Olá pessoal, eu sou o Yago, sou desenvolvedor backend com
                 especialização em Java e estou disponível para lhes ajudar em
                 todos os temas relacionados a linguagem. Desde angular até
@@ -113,24 +116,24 @@
                 chama no chat.
               </p>
             </div>
-
-            <div class="col-md-3 rounded text-center">
-              <h3 class="mt-1">Informações de Agendamento</h3>
-              <input type="date" name="" id="">
-              <input type="time" name="" id="">
-              <button class="btn btn-light mb-2 btn-sm botao-agendar">
-                Agendar Mentoria
-              </button>
+          </div>
+          <div class="col-md-4 rounded text-center mt-2">
+            <div class="info-agendamento">
+              <h3 class="mt-1 pt-3">Informações do Agendamento</h3>
+              <input type="date" name="" id="" class="ml-2 mb-2" />
+              <input type="time" name="" id="" class="ml-2 mb-2" />
+              <a href="">
+                <button class="btn btn-light mb-2 btn-sm botao-agendar mb-3">
+                  Agendar Mentoria
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-  <footer class="rodape">
-      &copy; Grupo FCamara | All Rights Reserved
-  </footer>
-  
+    <footer class="rodape">&copy; Grupo FCamara | All Rights Reserved</footer>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
