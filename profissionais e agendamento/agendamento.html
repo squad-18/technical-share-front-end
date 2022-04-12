@@ -125,19 +125,73 @@
             <div class="info-agendamento">
               <h3 class="mt-1 pt-3">Informações do Agendamento</h3>
               <div class="align-items-center pb-3">
-                <input type="date" name="" id="" class="ml-2 mb-2" />
-                <input type="time" name="" id="" class="ml-2 mb-2" />
-                <a href="">
-                  <button class="btn btn-light btn-sm botao-agendar">
-                    Agendar Mentoria
-                  </button>
-                </a>
+                <label>Escolha uma data:</label>
+                <input
+                  type="date"
+                  name="Data do Agendamento"
+                  id="Data"
+                  class="ml-2 mb-2"
+                />
+                <label class="d-block">Escolha um horário:</label>
+                <input
+                  type="time"
+                  name="Hora do Agendamento"
+                  id="Hora"
+                  class="ml-2 mb-2"
+                />
+                <button
+                  class="btn btn-light btn-sm botao-agendar"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Agendar Mentoria
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLabel">
+              Agendamento de Mentoria
+            </h5>
+          </div>
+          <div class="modal-body text-center">
+            Dia: 15/04/2022
+            <br />
+            Horário: 11:00
+            <br />
+            Duração: 30 minutos
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-light botao-cancelar"
+              data-dismiss="modal"
+            >
+              Cancelar
+            </button>
+            <a href="entrada.html">
+              <button type="button" class="btn btn-light botao-agendar">
+                Agendar
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="rodape">&copy; Grupo FCamara | All Rights Reserved</footer>
 

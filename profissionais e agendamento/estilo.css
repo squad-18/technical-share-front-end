@@ -333,8 +333,8 @@ input.search-area {
   margin-top: 4rem;
   background-color: #fff;
   padding: 15px;
-  height: 85vh;
-} 
+  height: 100%;
+}
 
 .botao-assunto-azul, .botao-assunto-laranja {
   width: auto;
@@ -375,14 +375,26 @@ input.search-area {
   background-color: #E24816;
   color: #fff;
   font-weight: 700;
-  border: none;
+  border: 1px solid #E24816;
 }
 
 .botao-agendar:hover {
   color: #fff;
   background-color: #ef653c;
   transition: 0.5s;
-  border: none;
+  border: 1px solid #ef653c;
+}
+
+.botao-cancelar {
+  font-weight: bold;
+  color: #E24816;
+  border: 1px solid #E24816;
+  background-color: #ffff;
+}
+
+.botao-cancelar:hover {
+  color: #303030;
+  border: 1px solid #ffff;
 }
 
 .container-info {
@@ -447,8 +459,28 @@ input.search-area {
   padding-left: 0;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit;
+}
+
 .borda {
   border: 1px solid red; /*classe para facilitar a visualização*/
 }
 
+/*------POP UP AGENDAMENTO--------*/
+.modal-header {
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border: none;
 
+}
+
+.modal-dialog {
+  width: 250px;
+  position: fixed;
+  top: 20vh;
+  left: 40vw;
+}
