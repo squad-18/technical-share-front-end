@@ -1,20 +1,8 @@
-/* ########################################### */
-/*                 Global                      */
-/* ########################################### */
+
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-/*
-img{
-    max-width: 100%;
-    max-height: 100%; 
-    height: 30%;
-    width: 30%; 
-}
-
-*/
 
 p {
     font-weight: normal;
@@ -44,9 +32,7 @@ h1{
     padding: 10px;
     margin:4px;
     border-radius: 5px;
-    /*background-color:#0B0045;*/
     border: solid 0.5px #FF4500;
-   /* border: #FF4500, 10px; */
     color:#000000;
     width: 90%;
     margin-top: 15px;
@@ -98,10 +84,6 @@ h1{
     margin-top:20px;
     background-color: #ffffff;
 
-    /*                                                         TESTAR POSICIONAMENTO
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto; */
   }
   
 
@@ -125,14 +107,13 @@ h1{
 
 
 /*------NAVEGAÇÃO--------*/
-
 .navbar-light .navbar-toggler {
     border: none;
   }
   
   .navbar-light .navbar-nav .nav-link{
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
     font-size: 14px;
   }
@@ -164,16 +145,17 @@ h1{
   }
   
   .logo {
-    
+    width: 3rem;
     height: auto;
     fill: #ffffff;
-    margin-left: -100px;
+    /*margin-left: -550px;*/
   }
   
   .navegation {
     background: #FF4500;
   }
  
+
 /* smartphones */
 @media screen and (max-width: 460px) {
     .container{
@@ -211,6 +193,9 @@ h1{
     
 
   }
+
+
+
 /*   Header   */
 
 header{
@@ -249,7 +234,7 @@ header{
 
 .search-box{
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 90px;
     padding: 120px;
     display:flex;
     margin-left: 145px;
