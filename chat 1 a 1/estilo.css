@@ -14,7 +14,7 @@
 * {
     font-family: 'Poppins';   
     overflow-x: hidden;
-    overflow-y: hidden;
+    
 }
 /*------NAVEGAÇÃO--------*/
 
@@ -107,7 +107,7 @@
 }
 
 .identificacao figure {
-    margin: 0px 20px 0 10px;
+    margin: 0px 10px 0 10px;
 }
 
 .avatar {

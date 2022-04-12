@@ -93,13 +93,13 @@ input::placeholder {
 }
 
 .navegation {
-  background: #E24816;
+  background: rgb(226, 72, 22);
 }
 
 /*------CONTAINER PRINCIPAL--------*/
 
 .container.container-principal {
-  max-width: 850px;
+  max-width: 700px;
   margin-top: 4rem;
   background-color: #fff;
 }
@@ -107,12 +107,23 @@ input::placeholder {
 .img-perfil {
   border-radius: 50%;
   border: 3px solid #E24816;
+  position: relative;
+  
 }
 
-@media (max-width:576px) {
+.img-profissional {
+  width: 150px;
+  height: 130px;
+  border-radius: 8px;
+}
+
+@media (max-width:768px) {
+
+  
   .img-perfil {
     width: 60px;
     height: 60px;
+    left: 150px;
   }
 
   h2 {
@@ -131,10 +142,20 @@ input::placeholder {
   }
 }
 
-@media (min-width: 577px) {
+@media (min-width: 768px) {
+
+  .img-profissional {
+    width: 150px;
+    height: 130px;
+    border-radius: 8px;
+    
+    
+  }
+
   .img-perfil {
     width: 94px;
     height: 94px;
+    left: 200px;
   }
 
   h2 {
@@ -262,8 +283,6 @@ input::placeholder {
 }
 
 .img-profissional {
-  width: 150px;
-  height: 130px;
   border-radius: 8px;
 }
 
@@ -310,18 +329,6 @@ input::placeholder {
 .btn.btn-light.botao-mentoria:hover {
   background-color: #ef653c;
   transition: 0.5s;
-}
-
-
-
-@media (min-width: 320px) {
-  .container-principal-agendamento {
-    width: 1180px;
-    margin-top: 4rem;
-    background-color: #efefef;
-    padding: 15px;
-  }
-
 }
 
 
