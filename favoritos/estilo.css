@@ -142,7 +142,7 @@ input::placeholder {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 
   .img-profissional {
     width: 150px;
@@ -155,7 +155,7 @@ input::placeholder {
   .img-perfil {
     width: 94px;
     height: 94px;
-    left: 200px;
+    left: 210px;
   }
 
   h2 {
@@ -257,11 +257,6 @@ input::placeholder {
   color: #ffffff;
 }
 
-.logo {
-  width: 3rem;
-  height: auto;
-  fill: #ffffff;
-}
 
 .navegation {
   background: rgb(254, 68, 0);
@@ -273,6 +268,8 @@ input::placeholder {
 .container-profissional {
   background-color: #ffffff;
   padding: 40px 10px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .secao-profissional {

@@ -77,11 +77,6 @@
     font-weight: bold;
 }
 
-.logo {
-    width: 3.5rem;
-    position: absolute; 
-}
-
 .identificacao {
     background-color: var(--cor2);
     display: inline-flex;   
@@ -254,11 +249,6 @@
         height: 60px;
     }
 
-    .logo { 
-       margin-left: 30px;
-       margin-top: 36px;
-    }
-
     .titulo {
         font-size: 15px;
     }
@@ -283,14 +273,7 @@
         font-size: 20px;
     }
     .container-titulo {       
-        height: 70px;
-        
-    }
-
-    .logo {        
-        left: 85px;
-        margin-left: 30px;
-        margin-top: 36px;
+        height: 60px;        
     }
 
     .chat{
