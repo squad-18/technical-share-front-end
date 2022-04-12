@@ -2,6 +2,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
 }
@@ -17,9 +22,6 @@ h2 {
 
 
 /*------LAYOUT--------*/
-body {
-  background-color: #ffffff;
-}
 
 input:focus {
   outline: none;
@@ -38,6 +40,7 @@ input::placeholder{
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 40px;
   padding: 5px;
   background-color: #36357E;
   color: #fff;
@@ -381,12 +384,15 @@ input.search-area {
   border: none;
 }
 
+.container-info {
+  height: 170px;
+}
+
 .info-agendamento {
   height: auto;
   background-color: #E5E5E5;
   border-radius: 8px;
 }
-
 
 @media (max-width: 767px) {
   .img-mentoria {
@@ -397,7 +403,15 @@ input.search-area {
 
   .info-mentor {
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 25px;
+  }
+
+  .mentor-hab {
+    display: flex;
+  }
+
+  .botoes {
+    margin-left: 10px;
   }
 
   .mentor {
