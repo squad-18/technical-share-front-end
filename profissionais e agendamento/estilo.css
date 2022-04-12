@@ -333,6 +333,7 @@ input.search-area {
   margin-top: 4rem;
   background-color: #fff;
   padding: 15px;
+  height: 85vh;
 } 
 
 .botao-assunto-azul, .botao-assunto-laranja {
