@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-/*--------duvidas----------
--configuração da logo para resoluções menores não funciona
-
- */
 
 /*regras para todos os dispositivos*/
 
@@ -18,12 +14,60 @@
 * {
     font-family: 'Poppins';   
     overflow-x: hidden;
+    overflow-y: hidden;
 }
+/*------NAVEGAÇÃO--------*/
 
+.navbar-light .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navbar-light .navbar-nav .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #E24816;
+    background-color: #ffffff;
+  
+  }
+  
+  .navbar-light .navbar-nav .btn:hover {
+    color: #303033;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    transition: 0.35s;
+  }
+  
+  .navbar-light .navbar-brand {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .navbar-light .navbar-brand:hover {
+    color: #ffffff;
+  }
+  
+  .logo {
+    width: 3rem;
+    height: auto;
+    fill: #ffffff;
+  }
+  
+  .navegation {
+    background: rgb(254, 68, 0);
+  }
 
 .container-titulo {
     background-color: var(--cor1);
-    display: flex;
+    
 }
 
 .titulo {    
@@ -40,11 +84,12 @@
 
 .identificacao {
     background-color: var(--cor2);
-    display: flex;
-    align-items: center;
+    display: inline-flex;   
     padding:10px;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 1px;
+    
 }
 
 .identificacao span {
@@ -62,7 +107,7 @@
 }
 
 .identificacao figure {
-    margin: 0 15px 0 0;
+    margin: 0px 20px 0 10px;
 }
 
 .avatar {
@@ -85,37 +130,37 @@
     background-color: var(--cor4);
     font-size: 12px;
     margin-top: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
-.chat-list {
+.container-chat {
     padding: 0;
     font-size: .8rem;
 }
 
-.chat-list li {
+.container-chat {
     margin-bottom: 10px;
     overflow: auto;
     color: #ffffff;
 }
 
-.out .chat-message {
+.mentorado .chat-message {
     border-radius: 5px 5px 0px 5px;
-    margin-top: 10px;
+    
 }
 
-.in .chat-message {
+.mentor .chat-message {
     border-radius: 0px 5px 5px 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.chat-message .inicio-dialogo {
+.chat-message .inicio-dialogo-aluno {
     margin-top: 5px;
 }
 
-.chat-list .chat-message {
+.container-chat .chat-message {
 
     background: var(--cor2);
     display: inline-block;
@@ -123,66 +168,49 @@
     position: relative;
 }
 
-.chat-list .chat-message:before {
+.container-chat .chat-message:before {
     content: "";
     position: absolute;
-    top: 20px;
+    /*top: 20px;*/
     width: 0;
     height: 0;
 }
 
 
-.chat-list .chat-message p {
+.container-chat .chat-message p {
     line-height: 20px;
     margin: 0;
     padding: 0;
 }
 
-.chat-list .chat-body {
-    margin-left: 50px;
-    float: left;
-    width: 75%;
+.container-chat .chat-body {
+    margin-left: 15px;
+    width: 90%;
 }
 
 
-.chat-list .out .chat-img {
+.container-chat .mentorado .chat-img {
     float: right;
 }
 
-.chat-list .out .chat-body {
+.container-chat .mentorado .chat-body {
     float: right;
-    margin-right: 50px;
+    margin-right: 30px;
     text-align: right;
 }
 
-.chat-list .out .chat-message {
+.container-chat .mentorado .chat-message {
     background: var(--cor1);
-}
-
-.chat-list .out .chat-message:before {
-    right: -15px;
-
-}
-
-
-.card .card-header {
-    background: var(--cor1);
-    border: 0;
-    font-size: 1rem;
-    padding: .65rem 2rem;
-    position: relative;
-    font-weight: 600;
-    color: #ffffff;
 }
 
 
 
 .enviar-mensagem {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 6px;
     width: 100%;
+    
+    margin-bottom: 10px;
 }
 
 .enviar-mensagem-input {
@@ -217,13 +245,13 @@
 }
 
 /*regras específicas para smartphones*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .chat{
-        font-size: 13px;
+        height:60%/*************/
         
     }
     .container-titulo{
-        height: 20px;
+        height: 60px;
     }
 
     .logo { 
@@ -232,34 +260,24 @@
     }
 
     .titulo {
-        font-size: 10px;
-    }
-    .identificacao{
-        background-color: var(--cor2);
-     }
-
-    
-    .rodape {
-        height: 40px;
-        font-size: 10px;
-    }
-
-}
-
-/*regras específicas para dispositivos maiores, como tablets*/
-@media screen and (min-width: 481) and (max-width: 1024px) {
-    .logo { 
-        left: 30px;
-        top: 36px;
-     }
-
-    .rodape {
-        height: 50px;
         font-size: 15px;
     }
+    
+    .enviar-mensagem {
+        
+        margin-top: -5px;
+        
+    }
+    .rodape {
+        height: 40px;
+        font-size: 15px;
+        position: absolute;
+    }
+
 }
+
 /*regras específicas para desktops e notebooks*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 781px) {
 
     .titulo{
         font-size: 20px;
@@ -278,10 +296,15 @@
     .chat{
         font-size: 16px;
     }
-    
+    .enviar-mensagem {
+        
+        margin-top: 40px;
+        
+    }
     .rodape {
         height: 50px;
         font-size: 18px;
+        position:absolute;
     }
 
 }

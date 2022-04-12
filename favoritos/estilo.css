@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ p {
 
 
 
-input::placeholder{
+input::placeholder {
   font-size: 16px;
 }
 
@@ -52,7 +52,7 @@ input::placeholder{
   border: none;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
   font-weight: bold;
@@ -81,8 +81,9 @@ input::placeholder{
   font-weight: bold;
   color: #ffffff;
 }
+
 .navbar-light .navbar-brand:hover {
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .logo {
@@ -108,7 +109,7 @@ input::placeholder{
   border: 3px solid #E24816;
 }
 
-@media (max-width:576px){
+@media (max-width:576px) {
   .img-perfil {
     width: 60px;
     height: 60px;
@@ -122,14 +123,15 @@ input::placeholder{
     font-size: 16px;
     font-weight: 700;
   }
-  .favoritos{
+
+  .favoritos {
     font-size: 20px;
-     margin-bottom: 10px;
-     
-   }
+    margin-bottom: 10px;
+
+  }
 }
 
-@media (min-width: 577px){
+@media (min-width: 577px) {
   .img-perfil {
     width: 94px;
     height: 94px;
@@ -144,11 +146,11 @@ input::placeholder{
     font-weight: 700;
   }
 
-  .favoritos{
+  .favoritos {
     font-size: 30px;
-     margin-bottom: 10px;
-     
-   }
+    margin-bottom: 10px;
+
+  }
 }
 
 .search-box {
@@ -242,9 +244,9 @@ input::placeholder {
 
 .navegation {
   background: rgb(254, 68, 0);
-}*/
+}
 
-
+*/
 /*------ÁREA PROFISSIONAL--------*/
 
 .container-profissional {
@@ -283,13 +285,6 @@ input::placeholder {
   font-size: 15px;
 }
 
-/*.agendar-desfavoritar {
-  font-family: 'Calibri';
-  font-weight: bolder;
-  font-size: 15px;
-  
-}*/
-
 .cargo-profissional {
   font-size: 12px;
   font-weight: 500;
@@ -326,7 +321,7 @@ input::placeholder {
     background-color: #efefef;
     padding: 15px;
   }
-  
+
 }
 
 
