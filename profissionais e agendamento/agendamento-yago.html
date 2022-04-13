@@ -31,12 +31,12 @@
 
     <!--Ícone da Página-->
     <link rel="icon" type="imagem/png" href="/img/icone-fcamara.png" />
+
   </head>
   <body>
     <header>
       <!--Início Navegação-->
       <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
-        <div class="container">
           <a href="entrada.html" class="navbar-brand">
             Technical Share
             <br />
@@ -74,7 +74,6 @@
               </li>
             </ul>
           </div>
-        </div>
       </nav>
       <!--Fim Navegação-->
     </header>
@@ -143,7 +142,7 @@
                   <button
                     class="btn btn-light btn-sm botao-agendar mt-1"
                     data-toggle="modal"
-                    data-target="#exampleModal"
+                    data-target="#agendar"
                   >
                     Agendar Mentoria
                   </button>
@@ -154,10 +153,10 @@
         </div>
       </div>
     </section>
-    <!-- Modal -->
+    <!-- pop-up Agendamento-->
     <div
       class="modal fade"
-      id="exampleModal"
+      id="agendar"
       tabindex="-1"
       role="dialog"
       aria-labelledby="exampleModalLabel"
@@ -185,9 +184,44 @@
             >
               Cancelar
             </button>
+            <button
+              type="button"
+              class="btn btn-light botao-agendar"
+              data-toggle="modal"
+              data-target="#confirmado"
+              data-dismiss="modal"
+              id="btnSalvar"
+            >
+              Agendar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pop-up Confirmado -->
+    <div
+      class="modal fade"
+      id="confirmado"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLabel">
+              <i class="fa-solid fa-circle-check fa-3x text-success"></i>
+          </div>
+          <div class="modal-body text-center">
+          <strong> Mentoria Agendada com Sucesso</strong> <br>
+           Lembre-se de desmarcar a mentoria se houver algum imprevisto
+          </div>
+          <div class="modal-footer">
             <a href="entrada.html">
               <button type="button" class="btn btn-light botao-agendar">
-                Agendar
+                Ir para Página Inicial
               </button>
             </a>
           </div>
@@ -214,5 +248,6 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="./funcao.js"></script>
   </body>
 </html>

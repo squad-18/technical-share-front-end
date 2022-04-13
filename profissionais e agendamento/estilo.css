@@ -389,18 +389,6 @@ input.search-area {
   border: 1px solid #ef653c;
 }
 
-.botao-cancelar {
-  font-weight: bold;
-  color: #E24816;
-  border: 1px solid #E24816;
-  background-color: #ffff;
-}
-
-.botao-cancelar:hover {
-  color: #303030;
-  border: 1px solid #ffff;
-}
-
 .container-info {
   height: 170px;
 }
@@ -409,6 +397,13 @@ input.search-area {
   height: auto;
   background-color: #E5E5E5;
   border-radius: 8px;
+}
+
+@media (max-width: 576px){
+  .modal-dialog {
+    width: 250px;
+    left: 10%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -430,12 +425,17 @@ input.search-area {
   .botoes {
     margin-left: 10px;
   }
+
   .mentor {
     display: flex;
   }
 
   .botao-assunto-azul, .botao-assunto-laranja {
     font-size: 14px;
+  }
+
+  .modal-dialog {
+    width: 250px;
   }
 }
 
@@ -452,6 +452,11 @@ input.search-area {
     width: 453px;
     height: 267px; 
   }
+
+  .modal-dialog {
+    width: 350px;
+  }
+
   .botao-assunto-laranja, .botao-assunto-azul {
     font-size: 16px;
   }
@@ -473,17 +478,48 @@ input.search-area {
 }
 
 /*------POP UP AGENDAMENTO--------*/
+
+.modal-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  padding: none;
+}
+
+.modal-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-bottom: 0;
+}
+
 .modal-header {
   font-weight: bold;
   align-items: center;
   justify-content: center;
   border: none;
-
+  padding-bottom: 0;
 }
 
 .modal-dialog {
-  width: 250px;
-  position: fixed;
-  top: 20vh;
-  left: 40vw;
+  position: relative;
+  top: 25%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.botao-cancelar {
+  font-weight: bold;
+  color: #E24816;
+  border: 1px solid #E24816;
+  background-color: #ffff;
+}
+
+.botao-cancelar:hover {
+  color: #303030;
+  border: 1px solid #ffff;
 }
