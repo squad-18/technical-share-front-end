@@ -52,6 +52,10 @@ input::placeholder{
 }
 
 /*------NAVEGAÇÃO--------*/
+body.chat a#chat, body.forum a#forum, body.mentorias a#mentorias, body.favoritos a#favoritos {
+  color: #ffffff;
+  border-bottom: 3px solid #36357E;
+}
 
 .navbar-light .navbar-toggler {
   border: none;
@@ -62,6 +66,7 @@ input::placeholder{
   color: #FFFFFF;
   font-weight: bold;
   font-size: 14px;
+  padding-bottom: 3px;
 }
 
 .navbar-light .navbar-nav .btn {
@@ -78,7 +83,8 @@ input::placeholder{
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  transition: 0.35s;
+  color: #ffffff;
+  border-bottom: 3px solid #36357E;
 }
 
 .navbar-light .navbar-brand {
