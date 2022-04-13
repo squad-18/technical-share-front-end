@@ -1,226 +1,225 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forum</title>
-    <link rel="stylesheet" href="style.css">
-  
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
-    <link rel="icon" type="imagem/png" href="./icone-fcamara.png"/>
-    <script src="https://kit.fontawesome.com/6bedd4d8ae.js" crossorigin="anonymous">
+  <!DOCTYPE html>
+  <html lang="pt">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Forum</title>
+      <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+      <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+      <link rel="icon" type="imagem/png" href="./icone-fcamara.png"/>
+      <script src="https://kit.fontawesome.com/6bedd4d8ae.js" crossorigin="anonymous">
 
-      
-    </script>
-</head>
+        
+      </script>
+  </head>
 
-<body>
-    <header>
-            <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
-              <div class="container">
-                <a href="entrada.html" class="navbar-brand">
-                  Technical Share
-                  <br />
-                  <div>
-                    <img src="./Logo-FCamara.png" alt="" class="logo float-right" />
+  <body>
+      <header>
+              <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
+                <div class="container">
+                  <a href="entrada.html" class="navbar-brand">
+                    Technical Share
+                    <br />
+                    <div>
+                      <img src="./Logo-FCamara.png" alt="" class="logo float-right" />
+                    </div>
+                  </a>
+                
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                  <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a href="chat.html" class="nav-link navegation-link">Chat</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="forum.html" class="nav-link">Fórum</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="mentorias-agendadas.html" class="nav-link">Mentorias Agendadas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="favoritos.html" class="nav-link">Favoritos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
+                      </li>
+                    </ul>
                   </div>
-                </a>
-               
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="nav-principal">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="chat.html" class="nav-link navegation-link">Chat</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="forum.html" class="nav-link">Fórum</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="mentorias-agendadas.html" class="nav-link">Mentorias Agendadas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="favoritos.html" class="nav-link">Favoritos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
-                    </li>
-                  </ul>
                 </div>
+              </nav>
+
+            </header>
+      
+
+          <!--SearchBox Section-->             
+      <div class="container" style="max-width: 800px; width:80%">    
+        <div class="search-box d-flex justify-content-between align-items-center w-100">
+          <select name="" id="">
+              <option value="Everything">Estudos</option>
+              <option value="Titles">Dúvidas</option>
+          </select>
+          
+      <input type="text" placeholder="Pesquisar favoritos" class="search-area ml-2"/>
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <button id="novo-post">Novo post</button>
+        </div>
+
+          <div class="subforum w-100">
+              <div class="subforum-title center">
+                  <p class="categorias">ESTUDOS</p>
               </div>
-            </nav>
+              <div class=" container w-100">
+              <div class="coluna w-100"> 
+                  <h4><a href="#" class="description">Título da postagem</a></h4>
+                  <p>Descrição da postagem: Olá pessoa, tudo bem? Acabei de entrar na F.Camara como Dev Sênior 
+                      e vim aqui trazer um material de estudos muito bom, espero que gostem da postagem! E vão 
+                      se acostumando, pois vou aparecer por aqui com bastante frequência! hahahaha. Se quiserem,
+                      posso colocar arquivos sobre Front-End, Back-End, muitas linguagens especificas e muito mais.
+                        Espero que gostem e espero nos encontrarmos mais vezes por aqui para rolar essa troca de experiencia
+                        muito bacana através do estudo... <br><br>
+                        <small>12 curtidas, 14 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                              Post por <strong>Gabriel Santos</strong>, 
+                            em 3 de março de 2022</small></p>
 
-          </header>
-     
-
-        <!--SearchBox Section-->             
-        <div class="search-box d-flex justify-content-between align-items-center">
-            <select name="" id="">
-                <option value="Everything">Estudos</option>
-                <option value="Titles">Dúvidas</option>
-            </select>
-        <input type="text" placeholder="Pesquisar favoritos" class="search-area ml-2"/>
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <button id="novo-post">Novo post</button>
-      </div>
-      </div>
-
-   
-
-    <div class="container">       
-        <div class="subforum">
-            <div class="subforum-title">
-                <p class="categorias">ESTUDOS</p>
-            </div>
-            <div class="coluna"> 
-                <h4><a href="#" class="description">Título da postagem</a></h4>
-                <p>Descrição da postagem: Olá pessoa, tudo bem? Acabei de entrar na F.Camara como Dev Sênior 
-                    e vim aqui trazer um material de estudos muito bom, espero que gostem da postagem! E vão 
-                    se acostumando, pois vou aparecer por aqui com bastante frequência! hahahaha. Se quiserem,
-                     posso colocar arquivos sobre Front-End, Back-End, muitas linguagens especificas e muito mais.
-                      Espero que gostem e espero nos encontrarmos mais vezes por aqui para rolar essa troca de experiencia
-                       muito bacana através do estudo... <br><br>
-                       <small>12 curtidas, 14 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                            Post por <strong>Gabriel Santos</strong>, 
-                           em 3 de março de 2022</small></p>
-
-            </div>
+              </div>
 
 
-            <div class="coluna"> 
-                <h4><a href="#" class="description">Título da postagem</a></h4>
-                <p>Descrição da postagem: Oi gente! Vocês estão bem? Essa semana eu acabei de ler o livro “Don’t make me Think” 
-                    do Steve Krug e achei sensacional! Mais alguém leu ou conhece a obra? Eu tenho o PDF para quem quiser! Achei 
-                    muito interessante como ele trata a ideia das interfaces de web e celular terem que ser tão intuitivas ao ponto 
-                    de não percebermos que estamos tomando uma decisão, e sim uma atitude um tanto quanto automática. Com certeza pretendo 
-                    aplicar esses conceitos no meu dia a dia como UX na F.Camara.<br><br>
-                       <small>13 curtidas, 9 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                            Post por <strong>Priscila Lacerda </strong>, 
-                           em 3 de abril de 2022</small></p>
+              <div class="coluna"> 
+                  <h4><a href="#" class="description">Título da postagem</a></h4>
+                  <p>Descrição da postagem: Oi gente! Vocês estão bem? Essa semana eu acabei de ler o livro “Don’t make me Think” 
+                      do Steve Krug e achei sensacional! Mais alguém leu ou conhece a obra? Eu tenho o PDF para quem quiser! Achei 
+                      muito interessante como ele trata a ideia das interfaces de web e celular terem que ser tão intuitivas ao ponto 
+                      de não percebermos que estamos tomando uma decisão, e sim uma atitude um tanto quanto automática. Com certeza pretendo 
+                      aplicar esses conceitos no meu dia a dia como UX na F.Camara.<br><br>
+                        <small>13 curtidas, 9 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                              Post por <strong>Priscila Lacerda </strong>, 
+                            em 3 de abril de 2022</small></p>
 
-            </div>
+              </div>
 
 
-            <div class="coluna"> 
-                <h4><a href="#" class="description">Título da postagem</a></h4>
-                <p>Descrição da postagem: Fala pessoal! Tudo bem com vocês? Essa semana no meu projeto eu tive que pesquisar 
-                    um pouco sobre Design Thinking e acabei achando esse artigo aqui, ele é muito bom! Vou deixar o link na publicação. 
-                    Além disso eu andei pesquisando um pouco e lendo os artigos do NN/group sobre a nova tendência em sound design em interfaces 
-                    de realidade aumentada. É muito interessante pensar como a música se relacionaria na experiência do usuário nesse cenário... 
-                    alguém aqui já leu sobre isso também? Se sim, me manda um oi no chat que eu quero conversar contigo! Abraços! <br><br>
-                       <small>10 curtidas, 14 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                            Post por <strong>Gabriela Ferreira </strong>, 
-                           em 3 de março de 2022</small></p>
+              <div class="coluna"> 
+                  <h4><a href="#" class="description">Título da postagem</a></h4>
+                  <p>Descrição da postagem: Fala pessoal! Tudo bem com vocês? Essa semana no meu projeto eu tive que pesquisar 
+                      um pouco sobre Design Thinking e acabei achando esse artigo aqui, ele é muito bom! Vou deixar o link na publicação. 
+                      Além disso eu andei pesquisando um pouco e lendo os artigos do NN/group sobre a nova tendência em sound design em interfaces 
+                      de realidade aumentada. É muito interessante pensar como a música se relacionaria na experiência do usuário nesse cenário... 
+                      alguém aqui já leu sobre isso também? Se sim, me manda um oi no chat que eu quero conversar contigo! Abraços! <br><br>
+                        <small>10 curtidas, 14 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                              Post por <strong>Gabriela Ferreira </strong>, 
+                            em 3 de março de 2022</small></p>
 
-            </div>
+              </div>
+              
+
+              <div class="coluna">
+                  <h4><a href="#" class="description">Título da postagem</a></h4>
+                <p>Descrição da postagem: Oi pessoal, Tudo bem? Acabei de entrar na F.Camara como Dev Pleno e vim aqui trazer 
+                    alguns livros e artigos legais para quem está se especializando em front-end, vou deixar o link do meu LinkedIn
+                      para quem quiser fazer networking. La eu posto alguns artigos que eu escrevo pelo Medium falando de alguns 
+                      assuntos de HTML e Android. Estou muito animada para começar a trabalhar na empresa, e desde já faço questão 
+                      de deixar claro que estou sempre aberta para dúvidas e orientações, podem me chamar no chat quando precisarem! 
+                      E também espero poder contar com...<br><br>
+                      <small>29 curtidas, 11 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp;  Post por <strong>Angélica Silva</strong>, 
+                          em 3 de abril de 2022</small></p>
+              </div>
+                        
+          <div class="subforum">
+              <div class="subforum-title">
+                  <p class="categorias">DUVIDAS</p>
+              </div>
+              <div class="coluna">
+                  <h4><a href="#" class="description">Título da postagem</a></h4>
+                  <p>Descrição da postagem: E ai, pessoal! Tudo bem? Me chamo Lais, tenho 24 anos 
+                  e acabei de entrar na F.Camara como UX trainee, entrei pelo programa de formação. 
+                  Vim pedir a ajuda de vocês... alguém tem algum material bacana sobre Double Diamond? 
+                  Agradeço a atenção de todos desde já! Aproveitando a postagem, vou deixar o link do meu
+                  LinkedIn para quem quiser me adicionar lá... estou muito animada para trabalhar aqui! Me 
+                  parece ser um ambiente muito legal de se trabalhar! <br><br>
+                  <small>12 curtidas, 14 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Post por <strong>Lais Freitas</strong>, 
+                      em 5 de abril de 2022</small>
+                  </p>
+
+              </div>
+              <div class="coluna">
+                  <h4><a href="#" class="description">Título da postagem</a></h4>
+                  <p>Descrição da postagem: Oi gente :) vocês estão bem? Seguinte... essa semana estou com uma questão 
+                      no meu projeto na F.Camara e preciso de recomendações de bibliografia sobre metodologias ágeis... 
+                      Alguém teria como me ajudar nisso? Não sei se aqui e o espaço apropriado também. Caso alguém queira 
+                      trocar um papo comigo por chamada de voz ou chat de avisa nos comentários que nos marcamos uma mentoria
+                      ou eu te chamo no chat!<br>
+                      Muito obrigada a todos que leram! <br><br>
+                      <small>29 curtidas, 11 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                          &nbsp; &nbsp;  Post por <strong>Pedro Alvares</strong>, 
+                          em 10 de abril de 2022</small>
+                      </p>
+              </div>
+              
+              </div>
+
             
-
-            <div class="coluna">
-                <h4><a href="#" class="description">Título da postagem</a></h4>
-               <p>Descrição da postagem: Oi pessoal, Tudo bem? Acabei de entrar na F.Camara como Dev Pleno e vim aqui trazer 
-                   alguns livros e artigos legais para quem está se especializando em front-end, vou deixar o link do meu LinkedIn
-                    para quem quiser fazer networking. La eu posto alguns artigos que eu escrevo pelo Medium falando de alguns 
-                    assuntos de HTML e Android. Estou muito animada para começar a trabalhar na empresa, e desde já faço questão 
-                    de deixar claro que estou sempre aberta para dúvidas e orientações, podem me chamar no chat quando precisarem! 
-                    E também espero poder contar com...<br><br>
-                    <small>29 curtidas, 11 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp;  Post por <strong>Angélica Silva</strong>, 
-                        em 3 de abril de 2022</small></p>
-            </div>
-                     
-        <div class="subforum">
-            <div class="subforum-title">
-                <p class="categorias">DUVIDAS</p>
-            </div>
-            <div class="coluna">
-                <h4><a href="#" class="description">Título da postagem</a></h4>
-                <p>Descrição da postagem: E ai, pessoal! Tudo bem? Me chamo Lais, tenho 24 anos 
-                e acabei de entrar na F.Camara como UX trainee, entrei pelo programa de formação. 
-                Vim pedir a ajuda de vocês... alguém tem algum material bacana sobre Double Diamond? 
-                Agradeço a atenção de todos desde já! Aproveitando a postagem, vou deixar o link do meu
-                 LinkedIn para quem quiser me adicionar lá... estou muito animada para trabalhar aqui! Me 
-                 parece ser um ambiente muito legal de se trabalhar! <br><br>
-                 <small>12 curtidas, 14 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Post por <strong>Lais Freitas</strong>, 
-                     em 5 de abril de 2022</small>
-                </p>
-
-            </div>
-            <div class="coluna">
-                <h4><a href="#" class="description">Título da postagem</a></h4>
-                <p>Descrição da postagem: Oi gente :) vocês estão bem? Seguinte... essa semana estou com uma questão 
-                    no meu projeto na F.Camara e preciso de recomendações de bibliografia sobre metodologias ágeis... 
-                    Alguém teria como me ajudar nisso? Não sei se aqui e o espaço apropriado também. Caso alguém queira 
-                    trocar um papo comigo por chamada de voz ou chat de avisa nos comentários que nos marcamos uma mentoria
-                     ou eu te chamo no chat!<br>
-                    Muito obrigada a todos que leram! <br><br>
-                    <small>29 curtidas, 11 comentários  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                        &nbsp; &nbsp;  Post por <strong>Pedro Alvares</strong>, 
-                        em 10 de abril de 2022</small>
-                    </p>
-            </div>
-            
-             </div>
-
-           
+          </div>
         </div>
-        <!---->
-    </div>
-
-    <!-- Forum Info -->
-    <div class="forum-info">
-        <div class="chart">
-            Technical Share &nbsp;
+          <!---->
         </div>
-        <span><u>4,000</u> posts em <u>2</u> assuntos por <u>12</u> pessoas</span><br>
-        <span>Último post: <b>Título do post</b> em 10 de abril por <b>Pedro Alvares</b></span>.<br>
-        <span>Cheque <b>os últimos posts</b>.</span><br>
+      <!-- Forum Info -->
+      <div class="forum-info">
+          <div class="chart">
+              Technical Share &nbsp;
+          </div>
+          <span><u>4,000</u> posts em <u>2</u> assuntos por <u>12</u> pessoas</span><br>
+          <span>Último post: <b>Título do post</b> em 10 de abril por <b>Pedro Alvares</b></span>.<br>
+          <span>Cheque <b>os últimos posts</b>.</span><br>
+      </div>
     </div>
-
-    <footer>
-        <span>&copy;  Grupo FCamara | All Rights Reserved</span>
-    </footer>
-</body>
-</html>
+      <footer>
+          <span>&copy;  Grupo FCamara | All Rights Reserved</span>
+      </footer>
+  </body>
+  </html>
