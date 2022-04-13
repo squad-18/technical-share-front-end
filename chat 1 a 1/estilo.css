@@ -6,9 +6,7 @@
 :root {
     --cor1: rgb(254, 68, 0);
     --cor2: rgb(54, 53, 126);
-    --cor3: rgb(48, 48, 51);
-    --cor4: rgb(227, 100, 20);
-
+    --cor3: rgb(227, 100, 20);
 }
 
 * {
@@ -32,9 +30,10 @@
   .navbar-light .navbar-nav .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #E24816;
+    color: rgb(226, 72, 22);
+    padding: 5px 7px;
     background-color: #ffffff;
-  
+    font-size: 14px;
   }
   
   .navbar-light .navbar-nav .btn:hover {
@@ -49,6 +48,7 @@
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
+    padding-top: 0px;
   }
   
   .navbar-light .navbar-brand:hover {
@@ -62,19 +62,10 @@
   }
   
   .navegation {
-    background: rgb(254, 68, 0);
+    background: var(--cor1);
   }
-
-.container-titulo {
-    background-color: var(--cor1);
-    
-}
-
-.titulo {    
-    color: #fff;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-weight: bold;
+  .container-titulo{    
+    margin-bottom: 60px;
 }
 
 .identificacao {
@@ -83,8 +74,7 @@
     padding:10px;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 1px;
-    
+    margin-top: 0px;    
 }
 
 .identificacao span {
@@ -122,7 +112,7 @@
     border-radius: 10px;
     color: #fff;
     padding: 2px;
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     font-size: 12px;
     margin-top: 1px;
     margin-bottom: 20px;
@@ -166,7 +156,6 @@
 .container-chat .chat-message:before {
     content: "";
     position: absolute;
-    /*top: 20px;*/
     width: 0;
     height: 0;
 }
@@ -203,8 +192,7 @@
 .enviar-mensagem {
     display: flex;
     padding: 6px;
-    width: 100%;
-    
+    width: 100%;    
     margin-bottom: 10px;
 }
 
@@ -236,45 +224,25 @@
     background-color: var(--cor2);
     color: #fff;
     font-weight: bold;
-
+    height: 30px;
+    font-size: 16px;
+    position:absolute;
 }
 
-/*regras específicas para smartphones*/
+/*media queries*/
 @media screen and (max-width: 780px) {
-    .chat{
-        height:60%/*************/
-        
-    }
-    .container-titulo{
-        height: 60px;
-    }
-
-    .titulo {
-        font-size: 15px;
-    }
+    
+    
     
     .enviar-mensagem {
         
         margin-top: -5px;
         
     }
-    .rodape {
-        height: 40px;
-        font-size: 15px;
-        position: absolute;
-    }
-
+ 
 }
 
-/*regras específicas para desktops e notebooks*/
 @media screen and (min-width: 781px) {
-
-    .titulo{
-        font-size: 20px;
-    }
-    .container-titulo {       
-        height: 60px;        
-    }
 
     .chat{
         font-size: 16px;
@@ -284,10 +252,6 @@
         margin-top: 40px;
         
     }
-    .rodape {
-        height: 50px;
-        font-size: 18px;
-        position:absolute;
-    }
-
+    
 }
+/*fim media queries*/
