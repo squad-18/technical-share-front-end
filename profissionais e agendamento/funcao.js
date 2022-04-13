@@ -1,14 +1,29 @@
 // $(document).ready(function () {
-//   $('#btnSalvar').click(function () {
-//     window.localStorage.setItem('Agendamento', JSON.stringify())
+//   $('#btnAgendarYago').click(function () {
+//     window.localStorage.setItem('Agendamento Yago', JSON.stringify())
 //   })
 
 //   function getAgendamento() {
-//     var agendamento = JSON.parse(window.localStorage.getItem('Agendamento'))
+//     var mentoriaAgendada = JSON.parse(
+//       window.localStorage.getItem('Agendamento Yago')
+//     )
 //   }
 
 //   getAgendamento()
 // })
+
+var data = document.getElementById('data')
+var hora = document.getElementById('hora')
+
+var btnAgendar = document.getElementById('btnAgendar')
+
+btnAgendar.addEventListener('click', function mentoriaAgendada() {
+  var agendamento = {
+    dia: data.value,
+    horario: hora.value
+  }
+  window.localStorage.setItem('Agendamento Yago', JSON.stringify(agendamento))
+})
 
 var tabelaAgendamento = document.getElementById('tabelaAgendamento')
 
@@ -19,7 +34,14 @@ var mentoriaExemplo = {
   hora: '11:00'
 }
 
+var mentoriaExemplo2 = {
+  mentor: 'Bruna',
+  data: '18/04/2022',
+  hora: '12:00'
+}
+
 listaAgendamentos.push(mentoriaExemplo)
+listaAgendamentos.push(mentoriaExemplo2)
 
 function atualizarAgendamento() {
   if (listaAgendamentos.length === 0) {
@@ -37,6 +59,8 @@ function atualizarAgendamento() {
     celulaMentor.innerText = agendamento.mentor
     celulaData.innerText = agendamento.data
     celulaHora.innerText = agendamento.hora
+    celulaDesmarcar.innerHTML =
+      '<button class="btn btn-light btn-sm botao-agendar">Desmarcar mentoria</button>'
     linha.appendChild(celulaMentor)
     linha.appendChild(celulaData)
     linha.appendChild(celulaHora)
@@ -46,5 +70,3 @@ function atualizarAgendamento() {
 }
 
 window.addEventListener('load', atualizarAgendamento())
-
-// não esta funcionando
