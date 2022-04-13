@@ -20,6 +20,10 @@ h2 {
   font-weight: 700;
 }
 
+label {
+  margin-bottom: 5px;
+}
+
 
 /*------LAYOUT--------*/
 
@@ -426,7 +430,6 @@ input.search-area {
   .botoes {
     margin-left: 10px;
   }
-
   .mentor {
     display: flex;
   }

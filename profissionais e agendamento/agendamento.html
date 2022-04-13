@@ -121,31 +121,33 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 rounded text-center mt-2 container-info">
+          <div class="col-md-4 rounded text-center mt-2 container-info">
             <div class="info-agendamento">
               <h3 class="mt-1 pt-3">Informações do Agendamento</h3>
               <div class="align-items-center pb-3">
-                <label>Escolha uma data:</label>
+                <label class="data-hora">Escolha uma data:</label>
                 <input
                   type="date"
                   name="Data do Agendamento"
                   id="Data"
-                  class="ml-2 mb-2"
+                  class="mb-1"
                 />
-                <label class="d-block">Escolha um horário:</label>
+                <label class="data-hora">Escolha um horário:</label>
                 <input
                   type="time"
                   name="Hora do Agendamento"
                   id="Hora"
-                  class="ml-2 mb-2"
+                  class="mb-1"
                 />
-                <button
-                  class="btn btn-light btn-sm botao-agendar"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                >
-                  Agendar Mentoria
-                </button>
+                <div>
+                  <button
+                    class="btn btn-light btn-sm botao-agendar mt-1"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
+                  >
+                    Agendar Mentoria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
