@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -34,10 +35,12 @@
             <header>
                 <!--Início Navegação-->
                 <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
-                        <a href="entrada.html" class="navbar-brand ">
+                    
+                        <a href="entrada.html" class="navbar-brand">
                             Technical Share
-                            <br>
-                            <img src="imagens/logoFCamaraBranca.png" alt="" class="logo float-right" />
+                            <br>                            
+                                <img src="imagens/Logo-FCamara.png" alt="" class="logo float-right" />
+                            
                         </a>
                         <!--menu sanduíche-->
                         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -47,7 +50,7 @@
                         <div class="collapse navbar-collapse" id="nav-principal">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="chat.html" class="nav-link navegation-link">Chat</a>
+                                    <a href="home.html" class="nav-link navegation-link">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="forum.html" class="nav-link">Fórum</a>
@@ -63,9 +66,10 @@
                                 </li>
                             </ul>
                         </div>
-                    
+                    </div>
                 </nav>
-        </div>
+
+       
         <!--Fim Navegação-->
     </header>
     <div class="row">
@@ -77,8 +81,8 @@
                         <img class="avatar" src="imagens/mentor.jpg">
                     </figure>
                     <div>
-                        <strong> Lucas </strong>
-                        <span> UX designer </span>
+                        <strong> Yago </strong>
+                        <span> Front-End Pleno </span>
                     </div>
                 </div>
             </div>
@@ -140,20 +144,20 @@
                 <!--Fim Diálogo-->
 
                 <!--Input Mensagem-->
-                <div class="enviar-mensagem">
-                    <svg style="fill:  rgb(54, 53, 126);" xmlns="http://www.w3.org/2000/svg" height="29"
-                        viewBox="0 0 24 24" width="29">
+                <div class="enviar-mensagem ">
+                    <svg style="fill:  rgb(54, 53, 126);" xmlns="http://www.w3.org/2000/svg" height="29" viewBox="0 0 24 24"
+                        width="29">
                         <path d="M0 0h24v24H0V0z" fill="none" />
                         <path
                             d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" />
                     </svg>
-                    <input class="enviar-mensagem-input" placeholder="Mensagem..."></input>
-                    <svg style="fill: rgb(54, 53, 126)" xmlns="http://www.w3.org/2000/svg" height="27"
-                        viewBox="0 0 24 24" width="27">
-                        <path d="M0 0h24v24H0V0z" fill="none" />
-                        <path
-                            d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z" />
-                    </svg>
+                    <input class="enviar-mensagem-input" type="text" placeholder="Mensagem..."></input>
+                    <button type="submit" id="btnEnviarMsg" onclick="enviarMensagem()"><svg style="fill: rgb(54, 53, 126)"
+                            xmlns="http://www.w3.org/2000/svg" height="27" viewBox="0 0 24 24" width="27">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z" />
+                        </svg></button>
                 </div>
                 <!--Fim Input Mensagem-->
 
@@ -162,6 +166,7 @@
         </div>
     </div>
     <!-- JavaScript -->
+    <script src="script.js"></script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

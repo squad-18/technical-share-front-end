@@ -26,41 +26,47 @@
 
 <body>
   <header>
-    <!--Início Navegação-->
-    <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
-        <a href="entrada.html" class="navbar-brand">
-          Technical Share
-          <br>
-          <div>
-            <img src="img/Logo-FCamara.png" alt="" class="logo float-right" />
-          </div>
-        </a>
-        <!--menu sanduíche-->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--fim do menu sanduíche-->
-        <div class="collapse navbar-collapse" id="nav-principal">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="chat.html" class="nav-link navegation-link">Chat</a>
-            </li>
-            <li class="nav-item">
-              <a href="forum.html" class="nav-link">Fórum</a>
-            </li>
-            <li class="nav-item">
-              <a href="mentorias-agendadas.html" class="nav-link">Mentorias Agendadas</a>
-            </li>
-            <li class="nav-item">
-              <a href="favoritos.html" class="nav-link">Favoritos</a>
-            </li>
-            <li class="nav-item">
-              <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
-            </li>
-          </ul>
-        </div>
-      
-    </nav>
+   <!--Início Navegação-->
+   <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
+    <a href="entrada.html" class="navbar-brand">
+      Technical Share
+      <br />
+      <div>
+        <img src="img/Logo-FCamara.png" alt="" class="logo float-right" />
+      </div>
+    </a>
+    <!--menu sanduíche-->
+    <button
+      class="navbar-toggler"
+      data-toggle="collapse"
+      data-target="#nav-principal"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--fim do menu sanduíche-->
+    <div class="collapse navbar-collapse" id="nav-principal">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="entrada.html" class="nav-link navegation-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="forum.html" class="nav-link">Fórum</a>
+        </li>
+        <li class="nav-item">
+          <a href="mentorias-agendadas-teste.html" class="nav-link"
+            >Mentorias Agendadas</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="favoritos.html" class="nav-link">Favoritos</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<!--Fim Navegação-->
     </header>
     <!--Fim Navegação-->
   <section>
@@ -81,20 +87,20 @@
       <!--fim do Search Box-->
 
       <!--Início Container Principal-->
-      <div class="container row d-flex justify-content-between container-profissional">
+      <div class="container-profissional-1 container row d-flex justify-content-between">
         <!--Início Profissional 1-->
-        <div class="d-flex col-sm-12 col-lg-6 secao-profissional">
+        <div class="secao-profissional-1 d-flex col-sm-12 col-lg-6 " id="secao-1">
           <div class="justify-content-around">
-            <img src="img/woman1.jpg" alt="Foto de uma Mulher" class="img-profissional" />
+            <img src="img/man.jpg" alt="Foto de uma Mulher" class="img-profissional" />
             <div class="info-profissional">
-              <p class="nome-profissional mt-1">Bruna</p>
-              <p class="cargo-profissional">Back-End Júnior</p>
+              <p class="nome-profissional mt-1">Yago</p>
+              <p class="cargo-profissional">Front-End Pleno</p>
             </div>
           </div>
 
           <!--Início Botões-->
           <div style="margin-top: 82px; margin-left:10px">
-            <a href=""><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></a>
+            <button type="submit" id="desfavoritar" onclick="remover1()"><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></button>
             <a href="agendamento.html"> <button class="btn btn-light botao-mentoria">
                 Novo Agendamento
               </button></a>
@@ -104,18 +110,18 @@
         <!--Fim Profissional 1-->
 
         <!--Início Profissional 2-->
-        <div class=" d-flex col-sm-12 col-lg-6 secao-profissional">
+        <div class=" d-flex col-sm-12 col-lg-6 secao-profissional-2" id="secao-2">
           <div class="justify-content-center">
-            <img src="img/man.jpg" alt="Foto de um homem" class="img-profissional" />
+            <img src="img/woman1.jpg" alt="Foto de um homem" class="img-profissional" />
             <div class="info-profissional">
-              <p class="nome-profissional mt-1">Yago</p>
-              <p class="cargo-profissional">Front-End Pleno</p>
+              <p class="nome-profissional mt-1">Bruna</p>
+              <p class="cargo-profissional">Back-End Júnior</p>
             </div>
           </div>
           <!--Início Botões-->
           <div style="margin-top: 82px; margin-left:10px">
-            <a href=""><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></a>
-            <a href="agendamento.html"> <button class="btn btn-light botao-mentoria">
+            <button type="submit" id="desfavoritar" onclick="remover2()"><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></button>
+            <a href=""> <button class="btn btn-light botao-mentoria">
                 Novo Agendamento
               </button></a>
           </div>
@@ -125,8 +131,8 @@
       <!--Fim Profissional 2-->
 
       <!--Início Profissional 3-->
-      <div class="container container-profissional row d-flex justify-content-between">
-        <div class="d-flex col-sm-12 col-lg-6 secao-profissional">
+      <div class="container container-profissional-2 row d-flex justify-content-between">
+        <div class="d-flex col-sm-12 col-lg-6 secao-profissional-3" id="secao-3">
           <div class="d-flex justify-content-center">
             <img src="img/woman2.jpg" alt="Foto de uma Mulher" class="img-profissional" />
             <div class="info-profissional">
@@ -136,8 +142,8 @@
           </div>
           <!--Início Botões-->
           <div style="margin-top: 82px; margin-left:10px">
-            <a href=""><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></a>
-            <a href="agendamento.html"> <button class="btn btn-light botao-mentoria">
+            <button type="submit" id="desfavoritar" onclick="remover3()"><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></button>
+            <a href=""> <button class="btn btn-light botao-mentoria">
                 Novo Agendamento
               </button></a>
           </div>
@@ -146,7 +152,7 @@
         <!--Fim Profissional 3-->
 
         <!--Início Profissional 4-->
-        <div class="d-flex col-sm-12 col-lg-6 secao-profissional">
+        <div class="d-flex col-sm-12 col-lg-6 secao-profissional-4" id="secao-4">
           <div class=" justify-content-center">
             <img src="img/man2.jpg" alt="Foto de uma Mulher" class="img-profissional" />
             <div class="info-profissional">
@@ -156,8 +162,8 @@
           </div>
           <!--Início Botões-->
           <div style="margin-top: 82px; margin-left:10px">
-            <a href=""><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></a>
-            <a href="agendamento.html"> <button class="btn btn-light botao-mentoria">
+            <button type="submit" id="desfavoritar" onclick="remover4()"><i class="fa-solid fa-star lg" style="color: rgb(226, 72, 22)"></i> <span style="color: black;"> Desfavoritar</span></button>
+            <a href=""> <button class="btn btn-light botao-mentoria">
                 Novo Agendamento
               </button></a>
           </div>
@@ -171,6 +177,8 @@
   </section>
 
   <!-- JavaScript -->
+  <script src="./script.js"></script> 
+
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
