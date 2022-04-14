@@ -320,6 +320,7 @@ input.search-area {
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .modal-header {
@@ -506,7 +507,7 @@ input.search-area {
   }
 
   .img-mentoria {
-    width: 453px;
+    width: 300px;
     height: 267px;
   }
 

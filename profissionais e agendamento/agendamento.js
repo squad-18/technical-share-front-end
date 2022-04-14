@@ -16,16 +16,21 @@ btnConfirmar.addEventListener('click', function infoAgendamento() {
   }
   dataF = new Date(infoMentoria.dia)
   dataFormatada = dataF.toLocaleDateString('pt-br', { timeZone: 'UTC' })
-  dataMentoria.innerHTML = `<span class="modal-body">Data: ${dataFormatada}</span>`
-  horaMentoria.innerHTML = `<span class="modal-body">Hora: ${infoMentoria.horario}</span>`
+  dataMentoria.innerHTML = `<div class="modal-body">Data: ${dataFormatada}</div>`
+  horaMentoria.innerHTML = `<div class="modal-body">Hora: ${infoMentoria.horario}</div>`
 })
 
 // guarda no localStorage
 btnAgendar.addEventListener('click', function mentoriaAgendada() {
+  const agendamentos =
+    localStorage.getItem('Agendamento') == null
+      ? []
+      : JSON.parse(localStorage.getItem('Agendamento'))
   const agendamentoMentoria = {
     mentor: nomeMentor.innerText,
     dia: data.value,
     horario: hora.value
   }
-  localStorage.setItem('Agendamento', JSON.stringify(agendamentoMentoria))
+  agendamentos.push(agendamentoMentoria)
+  localStorage.setItem('Agendamento', JSON.stringify(agendamentos))
 })
