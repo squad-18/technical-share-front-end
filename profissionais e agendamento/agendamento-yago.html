@@ -106,7 +106,7 @@
                 </div>
                 <div class="info-mentor">
                   <div class="d-flex align-items-center mt-2">
-                    <h2 class="mr-2 align-middle">Yago</h2>
+                    <h2 class="mr-2 align-middle" id="nomeMentor">Yago</h2>
                     <i class="fa-solid fa-star fa-lg"></i>
                   </div>
                   <p class="text-justify">
@@ -143,6 +143,7 @@
                     class="btn btn-light btn-sm botao-agendar mt-1"
                     data-toggle="modal"
                     data-target="#agendar"
+                    id="btnConfirmar"
                   >
                     Agendar Mentoria
                   </button>
@@ -171,10 +172,8 @@
           </div>
           <div class="modal-body text-center">
             <p>
-            Dia: 15/04/2022
-            </p>
-            <p>
-            Horário: 11:00
+              <span id="dataMentoria"></span>
+              <span id="horaMentoria"></span>
             </p>
             Duração: 30 minutos
           </div>
@@ -221,9 +220,9 @@
            Lembre-se de desmarcar a mentoria se houver algum imprevisto
           </div>
           <div class="modal-footer">
-            <a href="entrada.html">
+            <a href="mentorias-agendadas-teste.html">
               <button type="button" class="btn btn-light botao-agendar">
-                Ir para Página Inicial
+                Ir para Mentorias Agendadas
               </button>
             </a>
           </div>

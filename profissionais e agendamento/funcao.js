@@ -14,59 +14,65 @@
 
 var data = document.getElementById('data')
 var hora = document.getElementById('hora')
-
 var btnAgendar = document.getElementById('btnAgendar')
+var btnConfirmar = document.getElementById('btnConfirmar')
+var nomeMentor = document.getElementById('nomeMentor')
+var dataMentoria = document.getElementById('dataMentoria')
+var horaMentoria = document.getElementById('horaMentoria')
 
-btnAgendar.addEventListener('click', function mentoriaAgendada() {
-  var agendamento = {
+btnConfirmar.addEventListener('click', function infoAgendamento() {
+  const infoMentoria = {
     dia: data.value,
     horario: hora.value
   }
-  window.localStorage.setItem('Agendamento Yago', JSON.stringify(agendamento))
+  dataF = new Date(infoMentoria.dia)
+  dataFormatada = dataF.toLocaleDateString('pt-br', { timeZone: 'UTC' })
+  dataMentoria.innerText = 'Data: ' + dataFormatada
+  horaMentoria.innerText = 'Hora: ' + infoMentoria.horario
+})
+
+btnAgendar.addEventListener('click', function mentoriaAgendada() {
+  var agendamentoMentoria = {
+    mentor: nomeMentor.innerText,
+    dia: data.value,
+    horario: hora.value
+  }
+  window.localStorage.setItem(
+    'Agendamento',
+    JSON.stringify(agendamentoMentoria)
+  )
 })
 
 var tabelaAgendamento = document.getElementById('tabelaAgendamento')
 
-var listaAgendamentos = []
-var mentoriaExemplo = {
-  mentor: 'Yago',
-  data: '14/04/2022',
-  hora: '11:00'
-}
+var mentoriaAgendada = JSON.parse(window.localStorage.getItem('Agendamento'))
 
-var mentoriaExemplo2 = {
-  mentor: 'Bruna',
-  data: '18/04/2022',
-  hora: '12:00'
-}
+function atualizarAgendamento() {}
 
-listaAgendamentos.push(mentoriaExemplo)
-listaAgendamentos.push(mentoriaExemplo2)
-
-function atualizarAgendamento() {
-  if (listaAgendamentos.length === 0) {
-    tabelaAgendamento.innerHTML =
-      '<tr><td class="text-muted">Nenhuma mentoria agendada</td></tr>'
-    return
-  }
-  for (var i = 0; i < listaAgendamentos.length; i++) {
-    var agendamento = listaAgendamentos[i]
-    var linha = document.createElement('tr')
-    var celulaMentor = document.createElement('td')
-    var celulaData = document.createElement('td')
-    var celulaHora = document.createElement('td')
-    var celulaDesmarcar = document.createElement('td')
-    celulaMentor.innerText = agendamento.mentor
-    celulaData.innerText = agendamento.data
-    celulaHora.innerText = agendamento.hora
-    celulaDesmarcar.innerHTML =
-      '<button class="btn btn-light btn-sm botao-agendar">Desmarcar mentoria</button>'
-    linha.appendChild(celulaMentor)
-    linha.appendChild(celulaData)
-    linha.appendChild(celulaHora)
-    linha.appendChild(celulaDesmarcar)
-    tabelaAgendamento.appendChild(linha)
-  }
-}
+// function atualizarAgendamento() {
+//   if (listaAgendamentos.length === 0) {
+//     tabelaAgendamento.innerHTML =
+//       '<tr><td class="text-muted">Nenhuma mentoria agendada</td></tr>'
+//   } else {
+//     for (var i = 0; i < listaAgendamentos.length; i++) {
+//       var agendamentoMentoria = listaAgendamentos[i]
+//       var linha = document.createElement('tr')
+//       var celulaMentor = document.createElement('td')
+//       var celulaData = document.createElement('td')
+//       var celulaHora = document.createElement('td')
+//       var celulaDesmarcar = document.createElement('td')
+//       celulaMentor.innerText = mentoria.mentor
+//       celulaData.innerText = mentoria.data
+//       celulaHora.innerText = mentoria.horario
+//       celulaDesmarcar.innerHTML =
+//         '<button class="btn btn-light btn-sm botao-agendar">Desmarcar mentoria</button>'
+//       linha.appendChild(celulaMentor)
+//       linha.appendChild(celulaData)
+//       linha.appendChild(celulaHora)
+//       linha.appendChild(celulaDesmarcar)
+//       tabelaAgendamento.appendChild(linha)
+//     }
+//   }
+// }
 
 window.addEventListener('load', atualizarAgendamento())
