@@ -64,15 +64,18 @@ h1{
     color:#FFFFFF;
 }
 .logo{
-    margin-top: -30px;
-    width: 20%;
-    margin-left: 10px;
+    
+    width: 3rem;
+    height: auto;
+    fill: #ffffff;
+  
 }
 
 #novo-post{
     background-color: #FF4500;
     color: #ffffff;
     font-weight: bold;
+    width: 15%;
 }
 .container{
     margin: 0px;
@@ -100,8 +103,12 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
+.no-wrap{
+    flex-wrap:nowrap !important;
+}
 
 /*------NAVEGAÇÃO--------*/
 .navbar-light .navbar-toggler {
@@ -232,9 +239,6 @@ header{
 .search-box{
     border-radius: 5px;
     margin-top: 90px;
-    display:flex;
-    /*margin-left: 145px;
-    margin-bottom: -150px;*/
 }
 
 .search-box select{
@@ -242,14 +246,6 @@ header{
     border-radius: 10px;
     border: 3px solid #FF4500;
     font-weight: bold;
-}
-
-.search-box input{
-    padding: 10px;
-    border-radius: 5px;
-    border: 3px solid #FF4500;
-    width: 60%;
-    height: 48px;
 }
 
 .search-box button{
@@ -268,11 +264,24 @@ header{
 }
 
 .search-icon {
-    margin: 0.5rem;
+    background-color: #ffffff !important;
     color: #000000;
-    margin-left: -190px;
-    /*width: 28px;
-    height: 28px;
+    border: 3px solid #FF4500;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 48px;
+}
+.search-icon span{
+    background-color: #ffffff;
+    border:none;
+}
+
+.search-input input{
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 3px solid #FF4500 ;
+    border-right:none;
+    height: 48px;
 }
 
 /*                                                              SEARCH BOX           */
@@ -282,12 +291,11 @@ header{
     .search-box input, .search-box button, .search-box select{
         min-width: 300px;
         margin-top: 5px;
-    }    
-
+    } 
 }
 
 /* forum info Styling */
-}
+
 .forum-info{
     padding: 20px;
     background-color: #FF4500;

@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
+*{
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  outline: none;
+  box-sizing: border-box;
+}
 
 html {
-  background-color: rgba(218, 214, 214, 0.384);
+  background-color: #FF4500;
   color:#fff;
 }
 
@@ -19,23 +25,37 @@ a {
   font-weight: 400;
 }
 
+h1{
+  font-weight: bold;
+}
+
 h2 {
   text-align: center;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
   display:inline-block;
   margin: 40px 8px 10px 8px; 
   color: #cccccc;
 }
+.rodape{
+  font-weight: lighter;
+}
 
 #sanguelj {
     text-align: center;
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    font-weight: lighter;
 }
 
 #logo {
-    margin-top: -100px;
-    margin-left: 160px;
+  display: flexbox;
+  align-content: right;
+  justify-content: right;
+  margin-left: 190px;
+  margin-top: -10px;
 
 }
 
@@ -50,6 +70,7 @@ h2 {
 }
 
 #formContent {
+  font-weight: bold;
  -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
   background:  #FF4500;
@@ -59,8 +80,6 @@ h2 {
   max-width: 450px;
   position: relative;
   padding: 0px;
-  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   text-align: center;
 }
 
@@ -71,6 +90,9 @@ h2 {
   text-align: center;
   -webkit-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
 }
 
 
@@ -86,19 +108,18 @@ h2.active {
 
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #ffffff;
+  background-color: #36357e;
   border: none;
-  color: black;
-  padding: 15px 80px;
+  color: #ffffff;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  -webkit-box-shadow: 0 10px 30px 0 rgb(255, 255, 255);
-  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  font-weight: bold;
   -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 55px;
+  border-radius: 10px;
   margin: 5px 20px 40px 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -141,7 +162,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  background-color: #fff;
+  background-color: rgb(26, 25, 25);
   border-bottom: 2px solid #5fbae9;
 }
 
@@ -158,6 +179,7 @@ input[type=text]:placeholder {
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  background-color: #FF4500;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -205,7 +227,7 @@ input[type=text]:placeholder {
   -moz-animation-duration:1s;
   animation-duration:1s;
 }
-/*                            REVIEW */
+
 .fadeIn.first {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
@@ -252,13 +274,68 @@ input[type=text]:placeholder {
   width: 100%;
 }
 
+button{
+   color: #0d0d0d;
+}
+.idlogin{
+  color: #0d0d0d;
+  background-color: #FF4500;
+  border: 0;
+}
+
+.modal-backdrop.fade {
+opacity:0 !important;
+}
 
 
-*:focus {
-    outline: none;
-} 
+.modal-title {
+  color: #0d0d0d;
+  margin-left: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  padding: none;
+}
 
+.modal-body {
+  color: #0d0d0d;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-bottom: 0;
+}
 
-* {
-  box-sizing: border-box;
+.modal-header {
+  color: #0d0d0d;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding-bottom: 0;
+}
+
+.modal-dialog {
+  color: #0d0d0d;
+  position: relative;
+  top: 25%;
+}
+
+.modal-footer {
+  color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.botao-cancelar {
+  font-weight: bold;
+  color: #E24816;
+  border: 1px solid #E24816;
+  background-color: #ffff;
+}
+
+.botao-cancelar:hover {
+  color: #303030;
+  border: 1px solid #ffff;
 }
