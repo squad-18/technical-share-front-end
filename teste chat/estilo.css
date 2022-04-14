@@ -137,7 +137,8 @@ body.favoritos a#favoritos {
 .card-body {
     height: 5%;
     width: 98%;
-    padding-right: 0;    
+    padding-right: 0;
+    
 }
 
 .identificacao span {
@@ -206,12 +207,12 @@ strong {
     margin-bottom: 20px;
     background: #E24816;
     text-align:center;
-    margin-right: 150px;  
+  
 }
 
 .container-chat .chat-body {
     margin-left: 15px;
-    width: 180%;
+    width: 80%;
 }
 
 
@@ -221,7 +222,8 @@ strong {
 }
 
 .container-chat .mentorado .chat-message {
-    max-width:1000px;   
+    max-width:900px;
+   
     margin-left:75%;
 }
 
@@ -276,16 +278,7 @@ strong {
 
 /*media queries*/
 @media screen and (max-width: 780px) {
- 
-    .container-chat .chat-message p {
 
-        margin-right: 80px;  
-    }
-    
-    .container-chat .chat-body {
-        margin-left: 15px;
-        width: 300%;
-    }
     .enviar-mensagem {
         width: 90%;
         margin-top: 340px;

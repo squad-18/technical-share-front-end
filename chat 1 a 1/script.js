@@ -1,15 +1,14 @@
-var btnEnviarMsg = document.getElementById('btnEnviarMsg');
-var inputMensagem = document.getElementsByClassName('enviar-mensagem-input').value;
-var elementoPai = document.body;
+let btnEnviarMsg = document.getElementById('btnEnviarMsg');
+let inputMensagem = document.getElementById('enviar-msg').value;
 
 
-btnEnviarMsg.addEventListener('click',function enviarMensagem(){
-    
-    var mensagem = document.createElement('p')
-    mensagem.textContent = inputMensagem;
-    elementoPai.appendChild(mensagem);
-    
-} )
+
+btnEnviarMsg.onclick = function enviarMensagem(){
+     const tag = document.createElement('p');
+    tag.appendChild(document.createTextNode(document.getElementById('enviar-msg').value));    
+    document.getElementById('inicio').appendChild(tag);
+}
+
 
 
 
