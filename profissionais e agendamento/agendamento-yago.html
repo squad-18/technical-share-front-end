@@ -56,13 +56,13 @@
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="chat.html" class="nav-link navegation-link">Chat</a>
+                <a href="entrada.html" class="nav-link navegation-link">Home</a>
               </li>
               <li class="nav-item">
                 <a href="forum.html" class="nav-link">Fórum</a>
               </li>
               <li class="nav-item">
-                <a href="mentorias-agendadas.html" class="nav-link"
+                <a href="mentorias-agendadas-teste.html" class="nav-link"
                   >Mentorias Agendadas</a
                 >
               </li>
@@ -127,16 +127,18 @@
                 <label class="data-hora">Escolha uma data:</label>
                 <input
                   type="date"
-                  name="Data do Agendamento"
+                  name="DataAgendamento"
                   id="data"
                   class="mb-1"
+                  required
                 />
                 <label class="data-hora">Escolha um horário:</label>
                 <input
                   type="time"
-                  name="Hora do Agendamento"
+                  name="HoraAgendamento"
                   id="hora"
                   class="mb-1"
+                  required
                 />
                 <div>
                   <button
@@ -167,7 +169,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title text-center" id="exampleModalLabel">
-              Agendamento de Mentoria
+              Confirmação de Agendamento
             </h5>
           </div>
           <div class="modal-body text-center">
@@ -221,7 +223,7 @@
           </div>
           <div class="modal-footer">
             <a href="mentorias-agendadas-teste.html">
-              <button type="button" class="btn btn-light botao-agendar">
+              <button type="button" class="btn btn-light btn-sm botao-agendar" id="btnMentoria">
                 Ir para Mentorias Agendadas
               </button>
             </a>
@@ -229,8 +231,6 @@
         </div>
       </div>
     </div>
-
-    <footer class="rodape">&copy; Grupo FCamara | All Rights Reserved</footer>
 
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script
@@ -250,6 +250,6 @@
     ></script>
 
      <!-- JavaScript teste -->
-    <script src="./funcao.js"></script>
+    <script src="./teste.js"></script>
   </body>
 </html>
