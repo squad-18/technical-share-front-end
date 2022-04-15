@@ -19,7 +19,7 @@ html{
 }
 
 a{
-    color:#FF4500;
+    color:#E24816;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -32,7 +32,7 @@ h1{
     padding: 10px;
     margin:4px;
     border-radius: 5px;
-    border: solid 0.5px #FF4500;
+    border: solid 0.5px #E24816;
     color:#000000;
     width: 100%;
     margin-top: 15px;
@@ -59,22 +59,21 @@ h1{
 
 
 #nav1{
-    background-color: #FF4500;
+    background-color: #E24816;
     color:#FFFFFF;
-}
-.logo{
-    
-    width: 3rem;
-    height: auto;
-    fill: #ffffff;
-  
 }
 
 #novo-post{
-    background-color: #FF4500;
+    background-color: #E24816;
     color: #ffffff;
     font-weight: bold;
     width: 15%;
+    cursor: pointer;
+}
+
+#novo-post:hover{
+    background-color: #ef653c;
+    transition: 0.8s;
 }
 .container{
     margin: 0px;
@@ -90,7 +89,7 @@ h1{
   
 
 .subforum-title{
-    background-color:#FF4500;
+    background-color:#E24816;
     padding: 5px;
     border-radius: 5px;
     margin:4px;
@@ -132,28 +131,28 @@ body.favoritos a#favoritos {
     border: none;
   }
   
-  .navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link{
     font-family: 'Roboto', sans-serif;
     color: #ffffff !important;
     font-weight: bold;
     font-size: 14px;
   }
   
-  .navbar-light .navbar-nav .btn {
+.navbar-light .navbar-nav .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    color: #FF4500;
+    color: #E24816;
     padding: 5px 7px;
     background-color: #ffffff;
     font-size: 14px;
   }
   
   
-  .navbar-light .navbar-brand {
+.navbar-light .navbar-brand {
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff !important;
-  }
+}
   .navbar-light .navbar-brand:hover {
     color: #ffffff !important;
   }
@@ -162,11 +161,10 @@ body.favoritos a#favoritos {
     width: 3rem;
     height: auto;
     fill: #ffffff;
-    /*margin-left: -550px;*/
   }
   
   .navegation {
-    background: #FF4500;
+    background: #E24816;
   }
  
 
@@ -254,7 +252,7 @@ header{
 .search-box select{
     padding: 10px;
     border-radius: 10px;
-    border: 3px solid #FF4500;
+    border: 3px solid #E24816;
     font-weight: bold;
 }
 
@@ -267,7 +265,7 @@ header{
 }
 
 .search-box button:hover{
-    background-color: #FF4500;
+    background-color: #E24816;
     color: #fff;
     box-shadow: 1px 2px 3px #fff;
     border-radius: 5px;
@@ -276,7 +274,7 @@ header{
 .search-icon {
     background-color: #ffffff !important;
     color: #000000;
-    border: 3px solid #FF4500;
+    border: 3px solid #E24816;
     border-left: none;
     border-radius: 0px 5px 5px 0px;
     height: 48px;
@@ -289,7 +287,7 @@ header{
 .search-input input{
     padding: 10px;
     border-radius: 5px 0px 0px 5px;
-    border: 3px solid #FF4500 ;
+    border: 3px solid #E24816;
     border-right:none;
     height: 48px;
 }
@@ -308,7 +306,7 @@ header{
 
 .forum-info{
     padding: 20px;
-    background-color: #FF4500;
+    background-color: #E24816;
     color:#fff;
 }
 
