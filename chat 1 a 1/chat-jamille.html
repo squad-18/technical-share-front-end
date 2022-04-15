@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/6bedd4d8ae.js" crossorigin="anonymous"></script>
+
+    <!--Estilo personalizado-->
+    <link rel="stylesheet" href="estilo.css" />
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <!--Ícone da Página-->
+    <link rel="icon" type="imagem/png" href="./imgs/icone-fcamara.png" />
+</head>
+
+
+ <header>
+        <!--Início Navegação-->
+        <div class="container-titulo">
+            <!--Início Navegação-->
+                <nav class="navbar navbar-expand-md navbar-light navegation fixed-top">
+
+                    <a href="entrada.html" class="navbar-brand">
+                        Technical Share
+                        <br>
+                        <img src="imgs/Logo-FCamara.png" alt="" class="logo float-right" />
+
+                    </a>
+                    <!--menu sanduíche-->
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--fim do menu sanduíche-->
+                    <div class="collapse navbar-collapse" id="nav-principal">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="home.html" class="nav-link navegation-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="forum.html" class="nav-link">Fórum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="mentorias agendadas.html" class="nav-link">Mentorias Agendadas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="favoritos.html" class="nav-link">Favoritos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+        </nav>
+        <!--Fim Navegação-->
+<body>
+    </header>
+    <div class="row">
+        <div class="col-lg-12 col-sm-12">
+            <!--Início Área Identificação Mentor-->
+            <div class="card">
+                <div class="identificacao">
+                    <figure>
+                        <img class="avatar" src="./imgs/woman3.jpg">
+                    </figure>
+                    <div>
+                        <strong> Jamille </strong>
+                        <span>Front-End Pleno </span>
+                    </div>
+                </div>
+            </div>
+            <!--Fim Área Identificação Mentor-->
+
+            <!--Início Chat-->
+            <div class="card-body ">
+                <div class="chat">
+                    <!--Data-->
+                    <div class="d-flex justify-content-center text-center">
+                        <div class="data-conversa">16 de abril</div>
+                    </div>
+                    <!--Fim Data-->
+
+                    <!--Início Diálogo-->
+                    <div class="container-chat">
+                        <div class="mentorado">
+                            <div class="chat-body">
+                                <div class="chat-message" id="inicio">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fim Diálogo-->
+                    
+                </div>
+                <!--Fim Container Chat-->
+            </div>
+
+            <!--Input Mensagem-->
+            <div class="enviar-mensagem">
+                <svg style="fill:  rgb(54, 53, 126);" xmlns="http://www.w3.org/2000/svg" height="29" viewBox="0 0 24 24"
+                    width="29">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" />
+                </svg>
+                <input class="enviar-mensagem-input" type="text" placeholder="Mensagem..." id="enviar-msg"></input>
+                <button type="submit" id="btnEnviarMsg" onclick="enviarMensagem()"><svg style="fill: rgb(54, 53, 126)"
+                        xmlns="http://www.w3.org/2000/svg" height="27" viewBox="0 0 24 24" width="27">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M4.01 6.03l7.51 3.22-7.52-1 .01-2.22m7.5 8.72L4 17.97v-2.22l7.51-1M2.01 3L2 10l15 2-15 2 .01 7L23 12 2.01 3z" />
+                    </svg></button>
+            </div>
+            <!--Fim Input Mensagem-->
+            <!--Fim Chat-->
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+<footer class="rodape">
+
+    &copy; Grupo FCamara | All Rights Reserved
+
+</footer>
+
+</html>
