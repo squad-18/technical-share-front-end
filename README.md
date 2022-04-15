@@ -62,10 +62,6 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 - Protótipo: <a href="https://www.figma.com/file/eoHeCfR6gUCv4AqxQCbUrJ/Tecnical-Share?node-id=0%3A1">[Figma]</a> 
 - Documentação do Processo de UX: <a href = https://medium.com/@pegorarolivia/technical-share-nossa-experi%C3%AAncia-no-hackathon-do-grupo-f-camara-1a7e0ce75a12>[Medium]</a>
-- 
-- 
-- 
-
 
 ---
 
@@ -90,6 +86,6 @@ Trabalhamos de forma colaborativa com nossa equipe e utilizando a ajuda dos ment
   <p>Laís Leite: <a href="https://github.com/LaisMLeite">GitHub</b></sub></a>, <a href="https://www.linkedin.com/in/la%C3%ADs-leite-1859a7166/" title="Laís">Linkedin</a>.<p>   
   
   <h3><b>Ux Designers</b></h3>  
- <p> Ícaro Ungar: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
+ <p> Ícaro Ungar: <a href="https://www.behance.net/icarocruz1">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
  <p> Karina Souza: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;  <p>
  <p> Lívia Pegoraro: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
