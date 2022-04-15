@@ -85,12 +85,11 @@ Trabalhamos de forma colaborativa com nossa equipe e utilizando a ajuda dos ment
 
 ## :rocket: Squad 18
   <h3><b>Desenvolvedoras</b></h3>
-  <p>Amanda Guerra:  <a href="https://github.com/amaendoas">GitHub</a>, <a href="https://www.linkedin.com/in/guerramanda/" title="Amanda">Linkedin</a>;</p>
-  <p>Kawane Gois: <a href="https://github.com/kawanegois">GitHub</b></sub></a>, <a href="https://www.linkedin.com/in/kawanepereira/" title="Kawane">Linkedin</a>;</p>
-  <p>Laís Leite: <a href="https://github.com/LaisMLeite">GitHub</b></sub></a>, <a href="https://www.linkedin.com/in/la%C3%ADs-leite-1859a7166/" title="Laís">Linkedin</a>.<p>   
+  - <p>Amanda Guerra:  <a href="https://github.com/amaendoas">GitHub</a>, <a href="https://www.linkedin.com/in/guerramanda/" title="Amanda">Linkedin</a>;</p>
+  - <p>Kawane Gois: <a href="https://github.com/kawanegois">GitHub</b></sub></a>, <a href="https://www.linkedin.com/in/kawanepereira/" title="Kawane">Linkedin</a>;</p>
+  - <p>Laís Leite: <a href="https://github.com/LaisMLeite">GitHub</b></sub></a>, <a href="https://www.linkedin.com/in/la%C3%ADs-leite-1859a7166/" title="Laís">Linkedin</a>.<p>   
   
-  <h3><b>Ux Designers</b></h3>
-  
-  <p> Ícaro Ungar: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
-  <p> Karina Souza: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;<p>
-  <p> Lívia Pegoraro: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
+  <h3><b>Ux Designers</b></h3>  
+ - <p> Ícaro Ungar: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
+ - <p> Karina Souza: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;<p>
+ - <p> Lívia Pegoraro: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
