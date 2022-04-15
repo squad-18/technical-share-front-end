@@ -59,12 +59,12 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 ## :hammer: Utilitários
 
-- Protótipo: [Figma]
-- Trello: [Trello]
-- Documentação Postman  [Postman]
-- Diagrama de Classes UML: [Drive]
-- Userflow: [Drive]
-- Documentação do Processo de UX: [Medium]
+- Protótipo: <a href="https://www.figma.com/file/eoHeCfR6gUCv4AqxQCbUrJ/Tecnical-Share?node-id=0%3A1">[Figma]</a> 
+- Documentação do Processo de UX: <a href = https://medium.com/@pegorarolivia/technical-share-nossa-experi%C3%AAncia-no-hackathon-do-grupo-f-camara-1a7e0ce75a12>[Medium]</a>
+- 
+- 
+- 
+
 
 ---
 
