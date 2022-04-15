@@ -36,7 +36,7 @@ Projeto desenvolvido durante o Programa de Formação Season 3, oferecido pelo G
 
 ## :books: Como executar
 
-Nosso projeto foi desenvolvido como uma aplicação web em HTML5 e CSS3 responsiva, com algumas funcionalidades em Javascript. 
+Nosso projeto foi desenvolvido como uma aplicação web simples em HTML5 e CSS3 responsiva, com algumas funcionalidades em Javascript, de acordo com as habilidades das desenvolvedoras do nosso grupo. 
 
 Para visualizar siga os passos abaixo: 
 - Crie uma pasta em seu computador;
