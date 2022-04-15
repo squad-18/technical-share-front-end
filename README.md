@@ -59,8 +59,8 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 ## :hammer: Utilitários
 
-- Protótipo: <a href="https://www.figma.com/file/eoHeCfR6gUCv4AqxQCbUrJ/Tecnical-Share?node-id=0%3A1">[Figma]</a> 
-- Documentação do Processo de UX: <a href = https://medium.com/@pegorarolivia/technical-share-nossa-experi%C3%AAncia-no-hackathon-do-grupo-f-camara-1a7e0ce75a12>[Medium]</a>
+- Protótipo: <a href="https://www.figma.com/proto/eoHeCfR6gUCv4AqxQCbUrJ/Technical-Share?page-id=0%3A1&node-id=126%3A11&viewport=241%2C48%2C0.19&scaling=scale-down&starting-point-node-id=126%3A11">[Figma]</a> 
+- Documentação do Processo de UX: <a href = https://medium.com/@squad18fcamara/technical-share-nossa-experi%C3%AAncia-no-hackathon-do-grupo-f-camara-292bf1d95118>[Medium]</a>
 
 ---
 
