@@ -70,7 +70,7 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 Nossa equipe inicialmente era composta de três UX e quatro Desenvolvedores, porém houve desistência de um desenvolvedor, que possuía mais conhecimento do back-end. 
 Iniciamos o projeto desenvolvendo o back-end aprendendo juntamente deste desenvolvedor, porém com a saída do mesmo foi necessário descontinuar o back-end do projeto, pois até o momento ainda não possuímos conhecimento suficiente para aplicá-lo. 
-<p>Queríamos implementar mais funcionalidades mas não conseguimos devido a falta de conhecimento suficiente em JS e falta de tempo hábil para estudar, tínhamos um planejamento inicial o qual foi preciso ser revisto pela baixa na equipe. A princípio focamos em entregar uma identidade visual similar a UI, e, em seguida, focamos nas funcionalidades possíveis de implementação com o tempo restante. </p>
+<p>Queríamos implementar mais funcionalidades mas não foi possível devido ao nosso nível de conhecimento em JS. A princípio focamos em entregar uma identidade visual similar a UI, e, em seguida, focamos nas funcionalidades possíveis de implementação com o tempo restante. </p>
 <p>Desta forma, nosso projeto conta com interface e algumas funcionalidades desenvolvidas no front-end.</p>
 
 O projeto foi dividido inicialmente da seguinte forma:
