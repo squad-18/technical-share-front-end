@@ -59,14 +59,14 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 ## :hammer: Utilitários
 
-- Protótipo: <a href="https://www.figma.com/file/eoHeCfR6gUCv4AqxQCbUrJ/Tecnical-Share?node-id=0%3A1">[Figma]</a> 
-- Documentação do Processo de UX: <a href = https://medium.com/@pegorarolivia/technical-share-nossa-experi%C3%AAncia-no-hackathon-do-grupo-f-camara-1a7e0ce75a12>[Medium]</a>
+- Protótipo: <a href="https://www.figma.com/proto/eoHeCfR6gUCv4AqxQCbUrJ/Technical-Share?page-id=0%3A1&node-id=126%3A11&viewport=241%2C48%2C0.19&scaling=scale-down&starting-point-node-id=126%3A11" >[Figma]</a> 
+- Documentação do Processo de UX: <a href = https://medium.com/@squad18fcamara/technical-share-nossa-experi%C3%AAncia-no-hackathon-do-grupo-f-camara-292bf1d95118>[Medium]</a>
 
 ---
 
 ## :mag: Observações:
 
-Nossa equipe inicialmente era composta de 3 UX e 4 Desenvolvedores, porém houve desistência de um desenvolvedor, que possuía mais conhecimento do back-end. 
+Nossa equipe inicialmente era composta de três UX e quatro Desenvolvedores, porém houve desistência de um desenvolvedor, que possuía mais conhecimento do back-end. 
 Iniciamos o projeto desenvolvendo o back-end aprendendo juntamente deste desenvolvedor, porém com a saída do mesmo foi necessário abortar o back-end do projeto, pois até o momento ainda não possuímos conhecimento suficiente para aplicá-lo. Desta forma, nosso projeto conta com interface e algumas funcionalidades desenvolvidas no front-end.
 
 O projeto foi dividido inicialmente da seguinte forma:
