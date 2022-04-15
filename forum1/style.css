@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 p {
@@ -136,6 +137,8 @@ body.favoritos a#favoritos {
     color: #ffffff !important;
     font-weight: bold;
     font-size: 14px;
+    padding: 8px 8px 3px;
+    
   }
   
 .navbar-light .navbar-nav .btn {
@@ -152,19 +155,23 @@ body.favoritos a#favoritos {
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff !important;
+    height:42.36px;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
 }
   .navbar-light .navbar-brand:hover {
     color: #ffffff !important;
   }
   
   .logo {
-    width: 3rem;
+    width: 48px;
     height: auto;
     fill: #ffffff;
   }
   
   .navegation {
     background: #E24816;
+    height: 58.36px;
   }
  
 
