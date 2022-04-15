@@ -1,6 +1,6 @@
 <h1 align="center">Technical Share</h1>
 
-<p align="center">Aplicação web desenvolvida para promover o encontro dos <b>#SangueLaranja</b> da área da tecnologia com conhecimentos diversos, pensada para tirar dúvidas sobre a área ou orientar os usuários no aprendizado de novas habilidades. </p>
+<p align="center">Aplicação web desenvolvida para promover o encontro dos <b>#SangueLaranja</b> da área da tecnologia com conhecimentos diversos, pensada para tirar dúvidas sobre a área e orientar os usuários no aprendizado de novas habilidades. </p>
 
 <p align="center">
   <a href="#computer-sobre-o-projeto">Sobre o Projeto</a> •
