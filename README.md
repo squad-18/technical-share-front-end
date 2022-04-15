@@ -54,6 +54,8 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [localStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
+- [Bootstrap](https://getbootstrap.com/)
 
 ---
 
@@ -67,7 +69,9 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 ## :mag: Observações:
 
 Nossa equipe inicialmente era composta de três UX e quatro Desenvolvedores, porém houve desistência de um desenvolvedor, que possuía mais conhecimento do back-end. 
-Iniciamos o projeto desenvolvendo o back-end aprendendo juntamente deste desenvolvedor, porém com a saída do mesmo foi necessário descontinuar o back-end do projeto, pois até o momento ainda não possuímos conhecimento suficiente para aplicá-lo. Desta forma, nosso projeto conta com interface e algumas funcionalidades desenvolvidas no front-end.
+Iniciamos o projeto desenvolvendo o back-end aprendendo juntamente deste desenvolvedor, porém com a saída do mesmo foi necessário descontinuar o back-end do projeto, pois até o momento ainda não possuímos conhecimento suficiente para aplicá-lo. 
+<p>Queríamos implementar mais funcionalidades mas não conseguimos devido a falta de conhecimento suficiente em JS e falta de tempo hábil para estudar, tínhamos um planejamento inicial o qual foi preciso ser revisto pela baixa na equipe. A princípio focamos em entregar uma identidade visual similar a UI, e, em seguida, focamos nas funcionalidades possíveis de implementação com o tempo restante. </p>
+<p>Desta forma, nosso projeto conta com interface e algumas funcionalidades desenvolvidas no front-end.</p>
 
 O projeto foi dividido inicialmente da seguinte forma:
 - <p>Amanda Guerra: Página inicial, Página do Usuário, Agendamento e Mentorias Agendadas;</p>
