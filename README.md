@@ -44,7 +44,7 @@ Para visualizar siga os passos abaixo:
 - Abra o Git Bash dentro deste diretório;
 - Utilize o comando "git init";
 - Utilize o comando "git clone https://github.com/squad-18/technical-share-front-end.git.".
-- Comece a navegação pela página "entrada.html".
+- <strong>Comece a navegação pela página "pagina-inicial.html", você vai encontrá-la na pasta "Páginas-Principal-Usuário-Agendamento-Mentorias Agendadas"</strong>
 
 ---
 
