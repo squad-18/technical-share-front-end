@@ -1,0 +1,306 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+
+/*------LAYOUT--------*/
+body {
+  background-color: #ffffff;
+}
+
+.mentorias {
+  font-size: 23px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+
+p {
+  margin: 0;
+}
+
+
+
+
+/*------NAVEGAÇÃO--------*/
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #E24816;
+  padding: 5px 7px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .btn:hover {
+  color: #303033;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  transition: 0.35s;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+  fill: #ffffff;
+}
+
+.navegation {
+  background: rgb(226, 72, 22);
+}
+
+/*------CONTAINER PRINCIPAL--------*/
+
+.container.container-principal {
+  max-width: 850px;
+  margin-top: 4rem;
+  background-color: #fff;
+}
+
+
+.img-profissional {
+  width: 150px;
+  height: 140px;
+  border-radius: 8px;
+}
+
+
+@media (max-width:1024px) {
+
+  .secao-mentorias {   
+    height: 130px;
+    width: 70% !important;     
+  
+  }
+
+  .desmarcar{
+    width:250px;
+  }
+   .mentorias {
+    font-size: 20px;
+    }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+  .container-mentorias-2 {
+     margin-top: 40px;
+  }
+  .desmarcar{
+   
+    width: 290px;
+  
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .mentorias {
+    font-size: 23px;
+  }
+}
+
+
+/*------LAYOUT--------*/
+body {
+  background-color: #ffffff;
+}
+
+input {
+  margin-bottom: 0;
+  border: none;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+/*------NAVEGAÇÃO--------*/
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar-light .navbar-nav .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #E24816;
+  background-color: #ffffff;
+
+}
+
+.navbar-light .navbar-nav .btn:hover {
+  color: #303033;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  transition: 0.35s;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #ffffff;
+}
+
+
+.navegation {
+  background: rgb(254, 68, 0);
+}
+
+
+/*------ÁREA PROFISSIONAL--------*/
+
+.container-mentorias-1 {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0;
+}
+
+.container-mentorias-2 {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  
+}
+
+.secao-mentorias {
+  border-radius: 8px;
+  border: 1px solid #36357e;
+  height: 130px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-right: 0px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mentoria-agendada{
+  margin-top: 5px;  
+}
+
+.mentoria-agendada p{
+  font-size: 12px;
+}
+
+.desmarcar{
+  display: flex;
+  height: 60px;
+  justify-content:center;
+  align-items: end;
+  align-content: end;
+  margin-bottom: 0;
+}
+
+.btn.btn-light.botao-mentoria {
+  font-family: 'Roboto';
+  font-weight:900;
+  font-size: 15px;
+  background-color: rgb(227, 100, 20);
+  color: #ffffff;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+
+.btn.btn-light.botao-mentoria:hover {
+  background-color: #ef653c;
+  transition: 0.5s;
+}
+
+
+.botao-agendar {
+  background-color: #E24816;
+  color: #fff;
+  font-weight: 700;
+}
+
+.botao-agendar:hover {
+  color: #fff;
+  background-color: #ef653c;
+  transition: 0.5s;
+}

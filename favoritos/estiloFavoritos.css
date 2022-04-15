@@ -1,0 +1,326 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+
+/*------LAYOUT--------*/
+
+input:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+input::placeholder{
+  font-size: 16px;
+}
+
+/*------NAVEGAÇÃO--------*/
+body.home a#home,
+body.forum a#forum,
+body.mentorias a#mentorias,
+body.favoritos a#favoritos {
+  color: #ffffff;
+  border-bottom: 3px solid #36357E;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.navbar-light .navbar-nav .btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #E24816;
+  padding: 5px 7px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .btn:hover {
+  color: #303033;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+  border-bottom: 3px solid #36357E;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.navbar-light .navbar-brand:hover {
+  color:#ffffff;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+  fill: #ffffff;
+}
+
+.navegation {
+  background: #E24816;
+}
+
+/*------CONTAINER PRINCIPAL--------*/
+
+.container.container-principal {
+  max-width: 800px;
+  margin-top: 4rem;
+  background-color: #fff;
+}
+
+
+.img-profissional {
+  width: 150px;
+  height: 140px;
+  border-radius: 8px;
+}
+
+
+i .fa-solid {
+ fill: rgb(226, 72, 22);
+
+}
+
+#desfavoritar {
+  all: unset;
+  cursor: pointer;
+  outline: revert;
+}
+
+@media (max-width:780px) {
+   .favoritos {
+    font-size: 20px;
+    }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+}
+
+@media (min-width: 781px) {
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .favoritos {
+    font-size: 23px;
+  }
+}
+
+.search-box {
+  background-color: #ffffff;
+  border: 1px solid #ef653c;
+  border-radius: 1rem;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 14px;
+}
+
+
+.search-icon {
+  margin: 0.5rem;
+  color: #000000;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}
+
+
+/*------LAYOUT--------*/
+body {
+  background-color: #ffffff;
+}
+
+input {
+  margin-bottom: 0;
+  border: none;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+
+/*------ÁREA PROFISSIONAL--------*/
+
+.container-profissional-1 {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.container-profissional-2 {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.secao-profissional-1 {
+  border-radius: 8px;
+  height: 152px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.secao-profissional-2 {
+  border-radius: 8px;
+  height: 152px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.secao-profissional-3 {
+  border-radius: 8px;
+  height: 152px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.secao-profissional-4 {
+  border-radius: 8px;
+  height: 152px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img-profissional {
+  border-radius: 8px;
+}
+
+.info-profissional {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  backdrop-filter: blur(4px);
+  font-size: 10px;
+}
+
+.nome-profissional {
+  color: #FEFFFC;
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.cargo-profissional {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #FEFFFC;
+}
+
+.btn.btn-light.botao-mentoria {
+  font-family: 'Roboto';
+  font-weight:900;
+  font-size: 15px;
+  background-color: #E24816;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+
+.btn.btn-light.botao-mentoria:hover {
+  background-color: #ef653c;
+  transition: 0.5s;
+}
+
+
+.botao-agendar {
+  background-color: #E24816;
+  color: #fff;
+  font-weight: 700;
+}
+
+.botao-agendar:hover {
+  color: #fff;
+  background-color: #ef653c;
+  transition: 0.5s;
+}
