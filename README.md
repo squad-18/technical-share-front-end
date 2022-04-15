@@ -71,10 +71,10 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 ## :mag: Observações:
 
-Nossa equipe inicialmente era composta de 3 UX e 4 Devensolvedores, porém houve uma desistência de um devesenvolvedor que conhecia ferramentas back-end, por isto abortamos o back-end do projeto, pois não tínhamos conhecimento suficiente para aplicar.
+Nossa equipe inicialmente era composta de 3 UX e 4 Desenvolvedores, porém houve uma desistência de um devesenvolvedor, que tinha mais conhecimento do back-end e estava responsável por essa parte, por isto abortamos o back-end do projeto, pois não tínhamos conhecimento suficiente para aplicar.
 
-Dividimos inicialmente o projeto da seguinte forma:
-- <p>Amanda Guerra: Home/Profissionais, Agendamento e Mentorias Agendadas;</p>
+O projeto foi dividido da seguinte forma:
+- <p>Amanda Guerra: Página inicial, Página do Usuário, Agendamento e Mentorias Agendadas;</p>
 - <p>Kawane Gois: Login e Fórum;</p>
 - <p>Laís Leite: Favoritos e Chat.</p>
 
