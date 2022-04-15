@@ -39,7 +39,7 @@ A Technical Share foi criada para ser uma plataforma que proporciona o encontro 
 Nosso projeto foi desenvolvido como uma aplicação web simples em HTML5 e CSS3 responsiva, com algumas funcionalidades em Javascript, de acordo com as habilidades das desenvolvedoras do nosso grupo. 
 
 Para visualizar siga os passos abaixo: 
-- Você deve ter o Git Bash instalado em seu computador (clique <a href="https://git-scm.com/download/win">aqui<\a>;
+- Você deve ter o Git Bash instalado em seu computador (clique <a href="https://git-scm.com/download/win">aqui</a>);
 - Crie uma pasta em seu computador;
 - Abra o Git Bash dentro deste diretório;
 - Utilize o comando "git init";
