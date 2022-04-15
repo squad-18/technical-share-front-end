@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Inicial - Technical Share</title>
+    <title>Home - Technical Share</title>
 
     <!-- Bootstrap CSS -->
     <link
@@ -56,21 +56,21 @@
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="entrada.html" class="nav-link navegation-link" id="home">Home</a>
+                <a href="pagina-inicial.html" class="nav-link navegation-link" id="home">Home</a>
               </li>
               <li class="nav-item">
-                <a href="forum.html" class="nav-link">Fórum</a>
+                <a href="../forum1/forums.html" class="nav-link">Fórum</a>
               </li>
               <li class="nav-item">
-                <a href="mentorias-agendadas-teste.html" class="nav-link"
+                <a href="mentorias-agendadas.html" class="nav-link"
                   >Mentorias Agendadas</a
                 >
               </li>
               <li class="nav-item">
-                <a href="favoritos.html" class="nav-link">Favoritos</a>
+                <a href="../favoritos/favoritos.html" class="nav-link">Favoritos</a>
               </li>
               <li class="nav-item">
-                <a href="login.html" class="btn btn-outline-light ml-4">Sair</a>
+                <a href="pagina-inicial.html" class="btn btn-outline-light ml-4">Sair</a>
               </li>
             </ul>
           </div>
@@ -123,7 +123,7 @@
                     Mentoria
                   </button></a
                 >
-                <a href="chat.html"
+                <a data-toggle="modal" data-target="#Ops"
                   ><button class="btn btn-light botao-chat">Chat</button></a
                 >
               </div>
@@ -150,7 +150,7 @@
                     Mentoria
                   </button></a
                 >
-                <a href="chat.html"
+                <a href="../chat 1 a 1/index.html"
                   ><button class="btn btn-light botao-chat">Chat</button></a
                 >
               </div>
@@ -172,10 +172,10 @@
               </div>
               <!--Início Botões-->
               <div class="d-flex justify-content-center mt-2">
-                <a href="">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-mentoria">Mentoria</button>
                 </a>
-                <a href="">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-chat">Chat</button>
                 </a>
               </div>
@@ -197,10 +197,10 @@
               </div>
               <!--Início Botões-->
               <div class="d-flex justify-content-center mt-2">
-                <a href="agendamento.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-mentoria">Mentoria</button>
                 </a>
-                <a href="chat.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-chat">Chat</button>
                 </a>
               </div>
@@ -222,10 +222,10 @@
               </div>
               <!--Início Botões-->
               <div class="d-flex justify-content-center mt-2">
-                <a href="agendamento.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-mentoria">Mentoria</button>
                 </a>
-                <a href="chat.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-chat">Chat</button>
                 </a>
               </div>
@@ -247,10 +247,10 @@
               </div>
               <!--Início Botões-->
               <div class="d-flex justify-content-center mt-2">
-                <a href="agendamento.html">
+                <a data-toggle="modal" data-target="#Ops"">
                   <button class="btn btn-light botao-mentoria">Mentoria</button>
                 </a>
-                <a href="chat.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-chat">Chat</button>
                 </a>
               </div>
@@ -272,10 +272,10 @@
               </div>
               <!--Início Botões-->
               <div class="d-flex justify-content-center mt-2">
-                <a href="agendamento.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-mentoria">Mentoria</button>
                 </a>
-                <a href="chat.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-chat">Chat</button>
                 </a>
               </div>
@@ -297,10 +297,10 @@
               </div>
               <!--Início Botões-->
               <div class="d-flex justify-content-center mt-2">
-                <a href="agendamento.html">
-                  <button class="btn btn-light botao-mentoria">Mentoria</button>
+                <a data-toggle="modal" data-target="#Ops">
+                  <button class="btn btn-light botao-mentoria" >Mentoria</button>
                 </a>
-                <a href="entrada.html">
+                <a data-toggle="modal" data-target="#Ops">
                   <button class="btn btn-light botao-chat">Chat</button>
                 </a>
               </div>
@@ -311,11 +311,63 @@
           <!--Fim Seção Profissionais-->
         </div>
         <div class="d-flex justify-content-center mb-3">
-          <a href="" class="botao-carregar">Carregar mais &raquo;</a>
+          <a data-toggle="modal" data-target="#maisMentores" class="botao-carregar">Carregar mais &raquo;</a>
         </div>
       </div>
       <!--Fim do Container Principal-->
     </section>
+   
+    <!-- pop-up Ops-->
+    <div
+      class="modal fade"
+      id="Ops"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header mb-1">
+            <i class="fa-solid fa-triangle-exclamation fa-4x text-warning"></i>
+          </div>
+          <div class="modal-body text-center">
+            <h5 class="modal-title text-center" id="exampleModalLabel">
+              Ops! Página em construção!
+          </h5>
+            Esta página ficará pronta em breve, enquanto isso, por favor escolha uma diferente.
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pop-up Carregar-->
+    <div
+      class="modal fade"
+      id="maisMentores"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header mb-1">
+            <i class="fa-solid fa-person-circle-plus fa-3x text-info"></i>
+          </div>
+          <h5 class="modal-title text-center" id="exampleModalLabel">
+            Isso é tudo pessoal!
+         </h5>
+          <div class="modal-body text-center">
+            Em breve mais mentores se juntarão à nossa plataforma.
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- JavaScript -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

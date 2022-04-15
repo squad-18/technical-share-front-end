@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover{
@@ -45,6 +46,7 @@ input::placeholder{
 
 /*------NAVEGAÇÃO--------*/
 body.home a#home,
+body.pagina-inicial a#pagina-inicial,
 body.forum a#forum,
 body.mentorias a#mentorias,
 body.favoritos a#favoritos {
@@ -62,6 +64,7 @@ body.favoritos a#favoritos {
   font-weight: bold;
   font-size: 14px;
   padding-bottom: 3px;
+  cursor: pointer;
 }
 
 .navbar-light .navbar-nav .btn {

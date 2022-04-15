@@ -28,7 +28,6 @@ h1{
     font-size:17px;
 }
 
-
 .coluna{
     padding: 10px;
     margin:4px;
@@ -111,6 +110,24 @@ h1{
 }
 
 /*------NAVEGAÇÃO--------*/
+body.home a#home,
+body.pagina-inicial a#pagina-inicial,
+body.forum a#forum,
+body.mentorias a#mentorias,
+body.favoritos a#favoritos {
+  color: #ffffff;
+  border-bottom: 3px solid #36357E;
+}
+
+.navbar-light .navbar-nav .btn:hover {
+    color: #303033;
+  }
+  
+.navbar-nav .nav-item .nav-link:hover {
+ color: #ffffff;
+ border-bottom: 3px solid #36357E;
+}
+
 .navbar-light .navbar-toggler {
     border: none;
   }
@@ -131,13 +148,6 @@ h1{
     font-size: 14px;
   }
   
-  .navbar-light .navbar-nav .btn:hover {
-    color: #e1e1e6;
-  }
-  
-  .navbar-nav .nav-item .nav-link:hover {
-    transition: 0.35s;
-  }
   
   .navbar-light .navbar-brand {
     font-size: 1rem;
