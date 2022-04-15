@@ -22,7 +22,7 @@ Neste cenário entra a <b>Technical Share</b>, uma plataforma inicialmente exclu
 
 A Technical Share foi criada para ser uma plataforma que proporciona o encontro entre os profissionais da FCamara, priorizando o aprendizado.
 
-Projeto desenvolvido durante o Programa de Formação Season 3, oferecido pelo Grupo FCamara.
+*Este projeto foi desenvolvido durante o Programa de Formação Season 3, oferecido pelo Grupo FCamara.*
 
 ---
 
