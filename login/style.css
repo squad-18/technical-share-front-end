@@ -25,10 +25,6 @@ a {
   font-weight: 400;
 }
 
-h1{
-  font-weight: bold;
-}
-
 h2 {
   text-align: center;
   font-size: 16px;
@@ -96,18 +92,7 @@ h2 {
 }
 
 
-h2.inactive {
-  color: #cccccc;
-}
-
-h2.active {
-  color: #0d0d0d;
-  border-bottom: 2px solid #5fbae9;
-}
-
-
-
-input[type=button], input[type=submit], input[type=reset]  {
+.botao-entrar {
   background-color: #36357e;
   border: none;
   color: #ffffff;
@@ -126,10 +111,12 @@ input[type=button], input[type=submit], input[type=reset]  {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
 }
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-  background-color: rgba(218, 214, 214, 0.829);
+.botao-entrar:hover  {
+  background-color: #4b4fa1;
+  cursor: pointer;
 }
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
@@ -162,7 +149,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  background-color: rgb(26, 25, 25);
+  background-color: #fff;
   border-bottom: 2px solid #5fbae9;
 }
 
@@ -252,80 +239,14 @@ input[type=text]:placeholder {
   animation-delay: 1s;
 }
 
-.underlineHover{
-    color:#ffffff;
-}
-.underlineHover:after {
-  display: block;
-  left: 0;
-  bottom: -10px;
-  width: 0;
-  height: 2px;
-  background-color: #ffffff;
-  content: "";
-  transition: width 0.2s;
-}
-
-.underlineHover:hover {
-  color: #0d0d0d;
-}
-
-.underlineHover:hover:after{
-  width: 100%;
-}
-
 button{
    color: #0d0d0d;
 }
+
 .idlogin{
   color: #0d0d0d;
   background-color: #FF4500;
   border: 0;
-}
-
-.modal-backdrop.fade {
-opacity:0 !important;
-}
-
-
-.modal-title {
-  color: #0d0d0d;
-  margin-left: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 26px;
-  padding: none;
-}
-
-.modal-body {
-  color: #0d0d0d;
-  font-weight: lighter;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-  padding-bottom: 0;
-}
-
-.modal-header {
-  color: #0d0d0d;
-  font-weight: bold;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  padding-bottom: 0;
-}
-
-.modal-dialog {
-  color: #0d0d0d;
-  position: relative;
-  top: 25%;
-}
-
-.modal-footer {
-  color: #0d0d0d;
-  display: flex;
-  justify-content: center;
-  border: none;
 }
 
 .botao-cancelar {
@@ -338,4 +259,8 @@ opacity:0 !important;
 .botao-cancelar:hover {
   color: #303030;
   border: 1px solid #ffff;
+}
+
+h1.active {
+  font-weight: 700;
 }
