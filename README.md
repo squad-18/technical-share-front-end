@@ -42,7 +42,6 @@ Para visualizar siga os passos abaixo:
 - Você deve ter o Git Bash instalado em seu computador (clique <a href="https://git-scm.com/download/win">aqui</a>);
 - Crie uma pasta em seu computador;
 - Abra o Git Bash dentro deste diretório;
-- Utilize o comando "git init";
 - Utilize o comando "git clone https://github.com/squad-18/technical-share-front-end.git.".
 - <strong>Comece a navegação pela página "pagina-inicial.html", você vai encontrá-la na pasta "Páginas-Principal-Usuário-Agendamento-Mentorias Agendadas"</strong>
 
