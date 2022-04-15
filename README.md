@@ -82,7 +82,7 @@ Trabalhamos de forma colaborativa e utilizando a ajuda dos mentores <b>#SangueLa
 
 ---
 
-## :rocket: Sobre a Squad 18
+## :rocket: Squad 18
   <h3><b>Desenvolvedoras</b></h3>
   <p>Amanda Guerra:  <a href="https://github.com/amaendoas">GitHub</a>, <a href="https://www.linkedin.com/in/guerramanda/" title="Amanda">Linkedin</a>;</p>
   <p>Kawane Gois: <a href="https://github.com/kawanegois">GitHub</b></sub></a>, <a href="https://www.linkedin.com/in/kawanepereira/" title="Kawane">Linkedin</a>;</p>
