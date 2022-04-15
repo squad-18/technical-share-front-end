@@ -66,13 +66,15 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 
 ## :mag: Observações:
 
-Nossa equipe inicialmente era composta de 3 UX e 4 Desenvolvedores, porém houve uma desistência de um desenvolvedor, único que possuía mais conhecimento do back-end. 
+Nossa equipe inicialmente era composta de 3 UX e 4 Desenvolvedores, porém houve desistência de um desenvolvedor, que possuía mais conhecimento do back-end. 
 Iniciamos o projeto desenvolvendo o back-end aprendendo juntamente deste desenvolvedor, porém com a saída do mesmo foi necessário abortar o back-end do projeto, pois até o momento ainda não possuímos conhecimento suficiente para aplicá-lo. Desta forma, nosso projeto conta com interface e algumas funcionalidades desenvolvidas no front-end.
 
 O projeto foi dividido inicialmente da seguinte forma:
 - <p>Amanda Guerra: Página inicial, Página do Usuário, Agendamento e Mentorias Agendadas;</p>
 - <p>Kawane Gois: Login e Fórum;</p>
 - <p>Laís Leite: Favoritos e Chats.</p>
+
+Repositório com o back-end inicial do nosso projeto: https://github.com/squad-18/technical-share-back-end.
 
 Trabalhamos de forma colaborativa com nossa equipe e utilizando a ajuda dos mentores <b>#SangueLaranja.</b>
 
