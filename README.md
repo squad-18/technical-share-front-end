@@ -69,10 +69,10 @@ Ferramentas utilizadas no desenvolvimento do projeto:
 Nossa equipe inicialmente era composta de 3 UX e 4 Desenvolvedores, porém houve uma desistência de um desenvolvedor, único que possuía mais conhecimento do back-end. 
 Iniciamos o projeto desenvolvendo o back-end aprendendo juntamente deste desenvolvedor, porém com a saída do mesmo foi necessário abortar o back-end do projeto, pois até o momento ainda não possuímos conhecimento suficiente para aplicá-lo. Desta forma, nosso projeto conta com interface e algumas funcionalidades desenvolvidas no front-end.
 
-O projeto foi dividido da seguinte forma:
+O projeto foi dividido inicialmente da seguinte forma:
 - <p>Amanda Guerra: Página inicial, Página do Usuário, Agendamento e Mentorias Agendadas;</p>
 - <p>Kawane Gois: Login e Fórum;</p>
-- <p>Laís Leite: Favoritos e Chat.</p>
+- <p>Laís Leite: Favoritos e Chats.</p>
 
 Trabalhamos de forma colaborativa com nossa equipe e utilizando a ajuda dos mentores <b>#SangueLaranja.</b>
 
