@@ -9,7 +9,7 @@
   <a href="#-Tecnologias">Tecnologias</a> •
   <a href="#hammer-Utilitários">Utilitários</a> •
   <a href="#mag-Observações">Observações</a> •
-  <a href="#rocket-Equipe">Equipe</a> •  
+  <a href="#rocket-Equipe">Squad 18</a> •  
 </p>
 
 ---
@@ -22,8 +22,7 @@ Neste cenário entra a <b>Technical Share</b>, uma plataforma inicialmente exclu
 
 A Technical Share foi criada para ser uma plataforma que proporciona o encontro entre os profissionais da FCamara, priorizando o aprendizado.
 
-
-Projeto desenvolvido durante o <br>PROGRAMA DE FORMAÇÃO SEASON 3</br> oferecido pelo Grupo FCamara.
+Projeto desenvolvido durante o <b>Programa de Formação Season 3</br>, oferecido pelo Grupo FCamara.
 
 ---
 
@@ -78,7 +77,7 @@ O projeto foi dividido da seguinte forma:
 - <p>Kawane Gois: Login e Fórum;</p>
 - <p>Laís Leite: Favoritos e Chat.</p>
 
-Trabalhamos de forma colaborativa e utilizando a ajuda dos mentores <b>#SangueLaranja.</b>
+Trabalhamos de forma colaborativa com nossa equipe e utilizando a ajuda dos mentores <b>#SangueLaranja.</b>
 
 ---
 
@@ -90,6 +89,6 @@ Trabalhamos de forma colaborativa e utilizando a ajuda dos mentores <b>#SangueLa
   
   <h3><b>Ux Designers</b></h3>
   
-  <p> Ícaro Ungar <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
-  <p> Karina Souza <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;<p>
-  <p> Lívia Pegoraro <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
+  <p> Ícaro Ungar: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
+  <p> Karina Souza: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;<p>
+  <p> Lívia Pegoraro: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
