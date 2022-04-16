@@ -96,5 +96,5 @@ Trabalhamos de forma colaborativa com nossa equipe e utilizando a ajuda dos ment
   
   <h3><b>Ux Designers</b></h3>  
  <p> Ícaro Ungar: <a href="https://www.behance.net/icarocruz1">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/icaroungar/" title="Ícaro">Linkedin</a>;<p>
- <p> Karina Souza: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;  <p>
- <p> Lívia Pegoraro: <a href="">Portfólio</b></sub></a>, <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
+ <p> Karina Souza: <a href="https://www.linkedin.com/in/karina-souza-evangelista-914647230/" title="Karina">Linkedin</a>;  <p>
+ <p> Lívia Pegoraro: <a href="https://www.linkedin.com/in/liviapegoraro/" title="Lívia">Linkedin</a>.<p>
